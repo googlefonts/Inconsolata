@@ -18,6 +18,7 @@ ranges: Latin-1
 There are two .vfb Source files:
 1. Inconsolata Bold-OTF.vfb (Merged contours)
 2. Inconsolata Bold-TTF.vfb (TTF countours)
+3. Inconsolata Bold.glyphs (glyphs file)
 
 ChangeLog
 
