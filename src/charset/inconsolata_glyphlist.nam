@@ -1,5 +1,80 @@
+0x0198  Ƙ
+          caroncomb.alt
+          eight.dnom
+          eight.lf
+          eight.numr
+          eight.subs
+          five.dnom
+          five.lf
+          five.numr
+          five.subs
+          four.dnom
+          four.lf
+          four.numr
+          four.subs
+          idotaccent
+          nine.dnom
+          nine.lf
+          nine.numr
+          nine.subs
+          one.dnom
+          one.lf
+          one.numr
+          one.subs
+          periodcentered.loclCAT
+          seven.dnom
+          seven.lf
+          seven.numr
+          seven.subs
+          six.dnom
+          six.lf
+          six.numr
+          six.subs
+          three.dnom
+          three.lf
+          three.numr
+          three.subs
+          two.dnom
+          two.lf
+          two.numr
+          two.subs
+          zero.dnom
+          zero.lf
+          zero.numr
+          zero.subs
 0x0020    space
-0x00A0    nbspace
+0x0021  ! exclam
+0x0022  " quotedbl
+0x0023  # numbersign
+0x0024  $ dollar
+0x0025  % percent
+0x0026  & ampersand
+0x0027  ' quotesingle
+0x0028  ( parenleft
+0x0029  ) parenright
+0x002A  * asterisk
+0x002B  + plus
+0x002C  , comma
+0x002D  - hyphen
+0x002E  . period
+0x002F  / slash
+0x0030  0 zero
+0x0031  1 one
+0x0032  2 two
+0x0033  3 three
+0x0034  4 four
+0x0035  5 five
+0x0036  6 six
+0x0037  7 seven
+0x0038  8 eight
+0x0039  9 nine
+0x003A  : colon
+0x003B  ; semicolon
+0x003C  < less
+0x003D  = equal
+0x003E  > greater
+0x003F  ? question
+0x0040  @ at
 0x0041  A A
 0x0042  B B
 0x0043  C C
@@ -26,6 +101,12 @@
 0x0058  X X
 0x0059  Y Y
 0x005A  Z Z
+0x005B  [ bracketleft
+0x005C  \ backslash
+0x005D  ] bracketright
+0x005E  ^ asciicircum
+0x005F  _ underscore
+0x0060  ` grave
 0x0061  a a
 0x0062  b b
 0x0063  c c
@@ -52,74 +133,136 @@
 0x0078  x x
 0x0079  y y
 0x007A  z z
+0x007B  { braceleft
+0x007C  | bar
+0x007D  } braceright
+0x007E  ~ asciitilde
+0x00A0    nbspace
+0x00A1  ¡ exclamdown
+0x00A2  ¢ cent
+0x00A3  £ sterling
+0x00A4  ¤ currency
+0x00A5  ¥ yen
+0x00A6  ¦ brokenbar
+0x00A7  § section
+0x00A8  ¨ dieresis
+0x00A9  © copyright
+0x00AA  ª ordfeminine
+0x00AB  « guillemetleft
+0x00AC  ¬ logicalnot
+0x00AD  ­  softhyphen
+0x00AE  ® registered
+0x00AF  ¯ macron
+0x00B0  ° degree
+0x00B1  ± plusminus
+0x00B2  ² twosuperior
+0x00B3  ³ threesuperior
+0x00B4  ´ acute
+0x00B5  µ micro
+0x00B6  ¶ paragraph
+0x00B7  · periodcentered
+0x00B8  ¸ cedilla
+0x00B9  ¹ onesuperior
+0x00BA  º ordmasculine
+0x00BB  » guillemetright
+0x00BC  ¼ onequarter
+0x00BD  ½ onehalf
+0x00BE  ¾ threequarters
+0x00BF  ¿ questiondown
 0x00C0  À Agrave
-0x00E0  à agrave
 0x00C1  Á Aacute
-0x00E1  á aacute
 0x00C2  Â Acircumflex
-0x00E2  â acircumflex
 0x00C3  Ã Atilde
-0x00E3  ã atilde
 0x00C4  Ä Adieresis
+0x00C5  Å Aring
+0x00C6  Æ AE
+0x00C7  Ç Ccedilla
+0x00C8  È Egrave
+0x00C9  É Eacute
+0x00CA  Ê Ecircumflex
+0x00CB  Ë Edieresis
+0x00CC  Ì Igrave
+0x00CD  Í Iacute
+0x00CE  Î Icircumflex
+0x00CF  Ï Idieresis
+0x00D0  Ð Eth
+0x00D1  Ñ Ntilde
+0x00D2  Ò Ograve
+0x00D3  Ó Oacute
+0x00D4  Ô Ocircumflex
+0x00D5  Õ Otilde
+0x00D6  Ö Odieresis
+0x00D7  × multiply
+0x00D8  Ø Oslash
+0x00D9  Ù Ugrave
+0x00DA  Ú Uacute
+0x00DB  Û Ucircumflex
+0x00DC  Ü Udieresis
+0x00DD  Ý Yacute
+0x00DE  Þ Thorn
+0x00DF  ß germandbls
+0x00E0  à agrave
+0x00E1  á aacute
+0x00E2  â acircumflex
+0x00E3  ã atilde
 0x00E4  ä adieresis
+0x00E5  å aring
+0x00E6  æ ae
+0x00E7  ç ccedilla
+0x00E8  è egrave
+0x00E9  é eacute
+0x00EA  ê ecircumflex
+0x00EB  ë edieresis
+0x00EC  ì igrave
+0x00ED  í iacute
+0x00EE  î icircumflex
+0x00EF  ï idieresis
+0x00F0  ð eth
+0x00F1  ñ ntilde
+0x00F2  ò ograve
+0x00F3  ó oacute
+0x00F4  ô ocircumflex
+0x00F5  õ otilde
+0x00F6  ö odieresis
+0x00F7  ÷ divide
+0x00F8  ø oslash
+0x00F9  ù ugrave
+0x00FA  ú uacute
+0x00FB  û ucircumflex
+0x00FC  ü udieresis
+0x00FD  ý yacute
+0x00FE  þ thorn
+0x00FF  ÿ ydieresis
 0x0100  Ā Amacron
 0x0101  ā amacron
 0x0102  Ă Abreve
 0x0103  ă abreve
-0x00C5  Å Aring
-0x00E5  å aring
-0x01FA  Ǻ Aringacute
-0x01FB  ǻ aringacute
-0x1EA0  Ạ Adotbelow
-0x1EA1  ạ adotbelow
 0x0104  Ą Aogonek
 0x0105  ą aogonek
-0x00C6  Æ AE
-0x00E6  æ ae
-0x01FC  Ǽ AEacute
-0x01FD  ǽ aeacute
 0x0106  Ć Cacute
 0x0107  ć cacute
 0x0108  Ĉ Ccircumflex
 0x0109  ĉ ccircumflex
-0x010C  Č Ccaron
-0x010D  č ccaron
 0x010A  Ċ Cdotaccent
 0x010B  ċ cdotaccent
-0x00C7  Ç Ccedilla
-0x00E7  ç ccedilla
+0x010C  Č Ccaron
+0x010D  č ccaron
 0x010E  Ď Dcaron
 0x010F  ď dcaron
 0x0110  Đ Dcroat
 0x0111  đ dcroat
-0x00D0  Ð Eth
-0x00F0  ð eth
-0x00C8  È Egrave
-0x00E8  è egrave
-0x00C9  É Eacute
-0x00E9  é eacute
-0x00CA  Ê Ecircumflex
-0x00EA  ê ecircumflex
-0x1EBC  Ẽ Etilde
-0x1EBD  ẽ etilde
-0x011A  Ě Ecaron
-0x011B  ě ecaron
-0x00CB  Ë Edieresis
-0x00EB  ë edieresis
 0x0112  Ē Emacron
 0x0113  ē emacron
 0x0114  Ĕ Ebreve
 0x0115  ĕ ebreve
 0x0116  Ė Edotaccent
 0x0117  ė edotaccent
-0x1EB8  Ẹ Edotbelow
-0x1EB9  ẹ edotbelow
 0x0118  Ę Eogonek
 0x0119  ę eogonek
+0x011A  Ě Ecaron
+0x011B  ě ecaron
 0x011C  Ĝ Gcircumflex
 0x011D  ĝ gcircumflex
-0x01E6  Ǧ Gcaron
-0x01E7  ǧ gcaron
 0x011E  Ğ Gbreve
 0x011F  ğ gbreve
 0x0120  Ġ Gdotaccent
@@ -130,28 +273,16 @@
 0x0125  ĥ hcircumflex
 0x0126  Ħ Hbar
 0x0127  ħ hbar
-0x0131  ı idotless
-0x00CC  Ì Igrave
-0x00EC  ì igrave
-0x00CD  Í Iacute
-0x00ED  í iacute
-0x00CE  Î Icircumflex
-0x00EE  î icircumflex
 0x0128  Ĩ Itilde
 0x0129  ĩ itilde
-0x00CF  Ï Idieresis
-0x00EF  ï idieresis
 0x012A  Ī Imacron
 0x012B  ī imacron
 0x012C  Ĭ Ibreve
 0x012D  ĭ ibreve
-0x0130  İ Idotaccent
-          idotaccent
-0x1ECA  Ị Idotbelow
-0x1ECB  ị idotbelow
 0x012E  Į Iogonek
 0x012F  į iogonek
-0x0237  ȷ jdotless
+0x0130  İ Idotaccent
+0x0131  ı idotless
 0x0134  Ĵ Jcircumflex
 0x0135  ĵ jcircumflex
 0x0136  Ķ Kcommaaccent
@@ -159,88 +290,52 @@
 0x0138  ĸ kgreenlandic
 0x0139  Ĺ Lacute
 0x013A  ĺ lacute
-0x013D  Ľ Lcaron
-0x013E  ľ lcaron
 0x013B  Ļ Lcommaaccent
 0x013C  ļ lcommaaccent
-0x0141  Ł Lslash
-0x0142  ł lslash
+0x013D  Ľ Lcaron
+0x013E  ľ lcaron
 0x013F  Ŀ Ldot
 0x0140  ŀ ldot
+0x0141  Ł Lslash
+0x0142  ł lslash
 0x0143  Ń Nacute
 0x0144  ń nacute
-0x00D1  Ñ Ntilde
-0x00F1  ñ ntilde
-0x0147  Ň Ncaron
-0x0148  ň ncaron
 0x0145  Ņ Ncommaaccent
 0x0146  ņ ncommaaccent
+0x0147  Ň Ncaron
+0x0148  ň ncaron
 0x014A  Ŋ Eng
 0x014B  ŋ eng
-0x00D2  Ò Ograve
-0x00F2  ò ograve
-0x00D3  Ó Oacute
-0x00F3  ó oacute
-0x00D4  Ô Ocircumflex
-0x00F4  ô ocircumflex
-0x00D5  Õ Otilde
-0x00F5  õ otilde
-0x00D6  Ö Odieresis
-0x00F6  ö odieresis
 0x014C  Ō Omacron
 0x014D  ō omacron
 0x014E  Ŏ Obreve
 0x014F  ŏ obreve
 0x0150  Ő Ohungarumlaut
 0x0151  ő ohungarumlaut
-0x1ECC  Ọ Odotbelow
-0x1ECD  ọ odotbelow
-0x01EA  Ǫ Oogonek
-0x01EB  ǫ oogonek
-0x00D8  Ø Oslash
-0x00F8  ø oslash
-0x01FE  Ǿ Oslashacute
-0x01FF  ǿ oslashacute
 0x0152  Œ OE
 0x0153  œ oe
 0x0154  Ŕ Racute
 0x0155  ŕ racute
-0x0158  Ř Rcaron
-0x0159  ř rcaron
 0x0156  Ŗ Rcommaaccent
 0x0157  ŗ rcommaaccent
+0x0158  Ř Rcaron
+0x0159  ř rcaron
 0x015A  Ś Sacute
 0x015B  ś sacute
 0x015C  Ŝ Scircumflex
 0x015D  ŝ scircumflex
-0x0160  Š Scaron
-0x0161  š scaron
 0x015E  Ş Scedilla
 0x015F  ş scedilla
-0x0218  Ș Scommaaccent
-0x0219  ș scommaaccent
-0x1E9E  ẞ Germandbls
-0x00DF  ß germandbls
-0x0164  Ť Tcaron
-0x0165  ť tcaron
+0x0160  Š Scaron
+0x0161  š scaron
 0x0162  Ţ Tcedilla
 0x0163  ţ tcedilla
-0x021A  Ț Tcommaaccent
-0x021B  ț tcommaaccent
+0x0164  Ť Tcaron
+0x0165  ť tcaron
 0x0166  Ŧ Tbar
 0x0167  ŧ tbar
-0x00DE  Þ Thorn
-0x00FE  þ thorn
-0x00D9  Ù Ugrave
-0x00F9  ù ugrave
-0x00DA  Ú Uacute
-0x00FA  ú uacute
-0x00DB  Û Ucircumflex
-0x00FB  û ucircumflex
 0x0168  Ũ Utilde
 0x0169  ũ utilde
-0x00DC  Ü Udieresis
-0x00FC  ü udieresis
 0x016A  Ū Umacron
 0x016B  ū umacron
 0x016C  Ŭ Ubreve
@@ -249,40 +344,27 @@
 0x016F  ů uring
 0x0170  Ű Uhungarumlaut
 0x0171  ű uhungarumlaut
-0x1EE4  Ụ Udotbelow
-0x1EE5  ụ udotbelow
-0x1EE6  Ủ Uhookabove
-0x1EE7  ủ uhookabove
 0x0172  Ų Uogonek
 0x0173  ų uogonek
-0x1E80  Ẁ Wgrave
-0x1E81  ẁ wgrave
-0x1E82  Ẃ Wacute
-0x1E83  ẃ wacute
 0x0174  Ŵ Wcircumflex
 0x0175  ŵ wcircumflex
-0x1E84  Ẅ Wdieresis
-0x1E85  ẅ wdieresis
-0x1EF2  Ỳ Ygrave
-0x1EF3  ỳ ygrave
-0x00DD  Ý Yacute
-0x00FD  ý yacute
 0x0176  Ŷ Ycircumflex
 0x0177  ŷ ycircumflex
-0x1EF8  Ỹ Ytilde
-0x1EF9  ỹ ytilde
 0x0178  Ÿ Ydieresis
-0x00FF  ÿ ydieresis
-0x0232  Ȳ Ymacron
-0x0233  ȳ ymacron
 0x0179  Ź Zacute
 0x017A  ź zacute
-0x017D  Ž Zcaron
-0x017E  ž zcaron
 0x017B  Ż Zdotaccent
 0x017C  ż zdotaccent
+0x017D  Ž Zcaron
+0x017E  ž zcaron
 0x018F  Ə Schwa
-0x0259  ə schwa
+0x0192  ƒ florin
+0x01A0  Ơ Ohorn
+0x01A1  ơ ohorn
+0x01AF  Ư Uhorn
+0x01B0  ư uhorn
+0x01b8  Ƹ
+0x01b9  ƹ
 0x01C4  Ǆ DZcaron
 0x01C5  ǅ Dzcaron
 0x01C6  ǆ dzcaron
@@ -292,6 +374,16 @@
 0x01CA  Ǌ NJ
 0x01CB  ǋ Nj
 0x01CC  ǌ nj
+0x01E6  Ǧ Gcaron
+0x01E7  ǧ gcaron
+0x01EA  Ǫ Oogonek
+0x01EB  ǫ oogonek
+0x01FA  Ǻ Aringacute
+0x01FB  ǻ aringacute
+0x01FC  Ǽ AEacute
+0x01FD  ǽ aeacute
+0x01FE  Ǿ Oslashacute
+0x01FF  ǿ oslashacute
 0x0200  Ȁ Adblgrave
 0x0201  ȁ adblgrave
 0x0202  Ȃ Ainvertedbreve
@@ -316,40 +408,42 @@
 0x0215  ȕ udblgrave
 0x0216  Ȗ Uinvertedbreve
 0x0217  ȗ uinvertedbreve
+0x0218  Ș Scommaaccent
+0x0219  ș scommaaccent
+0x021A  Ț Tcommaaccent
+0x021B  ț tcommaaccent
 0x022A  Ȫ Odieresismacron
 0x022B  ȫ odieresismacron
 0x022C  Ȭ Otildemacron
 0x022D  ȭ otildemacron
 0x0230  Ȱ Odotaccentmacron
 0x0231  ȱ odotaccentmacron
-0xFB00  ﬀ f_f
-0xFB01  ﬁ fi
-0xFB02  ﬂ fl
-0xFB03  ﬃ f_f_i
-0xFB04  ﬄ f_f_l
-0x0026  & ampersand
-0x0040  @ at
-0x002A  * asterisk
-0x00A9  © copyright
-0x00AE  ® registered
-0x2122  ™ trademark
-0x005E  ^ asciicircum
-0x007E  ~ asciitilde
-0x0060  ` grave
-0x00B4  ´ acute
+0x0232  Ȳ Ymacron
+0x0233  ȳ ymacron
+0x0237  ȷ jdotless
+0x024d  ɍ
+0x0259  ə schwa
+0x0263  ɣ
+0x027b  ɻ
+0x0298  ʘ
+0x029a  ʚ
+0x02BB  ʻ commaturnedmod
+0x02BC  ʼ apostrophemod
+0x02BE  ʾ ringhalfright
+0x02BF  ʿ ringhalfleft
 0x02C6  ˆ circumflex
 0x02C7  ˇ caron
-0x02DC  ˜ tilde
-0x00A8  ¨ dieresis
-0x00AF  ¯ macron
-0x02BC  ʼ apostrophemod
+0x02C8  ˈ verticallinemod
 0x02C9  ˉ firsttonechinese
+0x02CA  ˊ secondtonechinese
+0x02CB  ˋ fourthtonechinese
+0x02CC  ˌ verticallinelowmod
 0x02D8  ˘ breve
-0x02DA  ˚ ring
-0x02DD  ˝ hungarumlaut
 0x02D9  ˙ dotaccent
-0x00B8  ¸ cedilla
+0x02DA  ˚ ring
 0x02DB  ˛ ogonek
+0x02DC  ˜ tilde
+0x02DD  ˝ hungarumlaut
 0x0300  ̀ gravecomb
 0x0301  ́ acutecomb
 0x0302  ̂ circumflexcomb
@@ -362,250 +456,19 @@
 0x030A  ̊ ringcomb
 0x030B  ̋ hungarumlautcomb
 0x030C  ̌ caroncomb
-          caroncomb.alt
 0x030F  ̏ breveinvertedcomb
 0x0311  ̑ dblgravecomb
+0x0312  ̒ commaturnedabovecomb 
 0x031B  ̛ horncomb
 0x0323  ̣ dotbelowcomb
 0x0324  ̤ dieresisbelowcomb
 0x0326  ̦ commaaccentcomb
-0x0312  ̒ commaturnedabovecomb 
 0x0327  ̧ cedillacomb
 0x0328  ̨ ogonekcomb
 0x032E  ̮ brevebelowcomb
 0x0331  ̱ macronbelowcomba
-0x00AD  ­  softhyphen
-0x002D  - hyphen
-0x2013  – endash
-0x2014  — emdash
-0x005F  _ underscore
-0x002E  . period
-0x002C  , comma
-0x003A  : colon
-0x003B  ; semicolon
-0x0021  ! exclam
-0x00A1  ¡ exclamdown
-0x003F  ? question
-0x00BF  ¿ questiondown
-0x2026  … ellipsis
-0x00B7  · periodcentered
-          periodcentered.loclCAT
-0x2219  ∙ bulletoperator
-0x2022  • bullet
-0x002F  / slash
-0x005C  \ backslash
-0x007C  | bar
-0x00A6  ¦ brokenbar
-0x0028  ( parenleft
-0x0029  ) parenright
-0x005B  [ bracketleft
-0x005D  ] bracketright
-0x007B  { braceleft
-0x007D  } braceright
-0x0027  ' quotesingle
-0x0022  " quotedbl
-0x2018  ‘ quoteleft
-0x2019  ’ quoteright
-0x201C  “ quotedblleft
-0x201D  ” quotedblright
-0x201A  ‚ quotesinglbase
-0x201E  „ quotedblbase
-0x2039  ‹ guilsinglleft
-0x203A  › guilsinglright
-0x00AB  « guillemetleft
-0x00BB  » guillemetright
-0x00B6  ¶ paragraph
-0x0023  # numbersign
-0x0030  0 zero
-0x0031  1 one
-0x0032  2 two
-0x0033  3 three
-0x0034  4 four
-0x0035  5 five
-0x0036  6 six
-0x0037  7 seven
-0x0038  8 eight
-0x0039  9 nine
-0x2044  ⁄ fraction
-0x2215  ∕ divisionslash
-0x00BC  ¼ onequarter
-0x00BD  ½ onehalf
-0x00BE  ¾ threequarters
-0x00B0  ° degree
-0x0025  % percent
-0x2030  ‰ perthousand
-0x002B  + plus
-0x2212  − minus
-0x00B1  ± plusminus
-0x003D  = equal
-0x2260  ≠ notequal
-0x2248  ≈ approxequal
-0x00D7  × multiply
-0x003C  < less
-0x003E  > greater
-0x2264  ≤ lessequal
-0x2265  ≥ greaterequal
-0x00F7  ÷ divide
-0x00AC  ¬ logicalnot
-0x2020  † dagger
-0x2021  ‡ daggerdbl
-0x00A7  § section
-0x20AC  € euro
-0x00A4  ¤ currency
-0x0024  $ dollar
-0x00A2  ¢ cent
-0x0192  ƒ florin
-0x00A3  £ sterling
-0x00A5  ¥ yen
-0x00B9  ¹ onesuperior
-0x00B2  ² twosuperior
-0x00B3  ³ threesuperior
-0x2074  ⁴ foursuperior
-0x00AA  ª ordfeminine
-0x00BA  º ordmasculine
-0x2116  № numero
-0x00B5  µ micro
-          zero.lf
-          one.lf
-          two.lf
-          three.lf
-          four.lf
-          five.lf
-          six.lf
-          seven.lf
-          eight.lf
-          nine.lf
-0x1EAE  Ắ Abreveacute
-0x1EB6  Ặ Abrevedotbelow
-0x1EB0  Ằ Abrevegrave
-0x1EB2  Ẳ Abrevehookabove
-0x1EB4  Ẵ Abrevetilde
-0x1EA4  Ấ Acircumflexacute
-0x1EAC  Ậ Acircumflexdotbelow
-0x1EA6  Ầ Acircumflexgrave
-0x1EA8  Ẩ Acircumflexhookabove
-0x1EAA  Ẫ Acircumflextilde
-0x1EA2  Ả Ahookabove
-0x1EBE  Ế Ecircumflexacute
-0x1EC6  Ệ Ecircumflexdotbelow
-0x1EC0  Ề Ecircumflexgrave
-0x1EC2  Ể Ecircumflexhookabove
-0x1EC4  Ễ Ecircumflextilde
-0x1EBA  Ẻ Ehookabove
-0x1ED0  Ố Ocircumflexacute
-0x1ED8  Ộ Ocircumflexdotbelow
-0x1ED2  Ồ Ocircumflexgrave
-0x1ED4  Ổ Ocircumflexhookabove
-0x1ED6  Ỗ Ocircumflextilde
-0x1ECE  Ỏ Ohookabove
-0x01A0  Ơ Ohorn
-0x1EDA  Ớ Ohornacute
-0x1EE2  Ợ Ohorndotbelow
-0x1EDC  Ờ Ohorngrave
-0x1EDE  Ở Ohornhookabove
-0x1EE0  Ỡ Ohorntilde
-0x01AF  Ư Uhorn
-0x1EE8  Ứ Uhornacute
-0x1EF0  Ự Uhorndotbelow
-0x1EEA  Ừ Uhorngrave
-0x1EEC  Ử Uhornhookabove
-0x1EEE  Ữ Uhorntilde
-0x1EF4  Ỵ Ydotbelow
-0x1EF6  Ỷ Yhookabove
-0x1EAF  ắ abreveacute
-0x1EB7  ặ abrevedotbelow
-0x1EB1  ằ abrevegrave
-0x1EB3  ẳ abrevehookabove
-0x1EB5  ẵ abrevetilde
-0x1EA5  ấ acircumflexacute
-0x1EAD  ậ acircumflexdotbelow
-0x1EA7  ầ acircumflexgrave
-0x1EA9  ẩ acircumflexhookabove
-0x1EAB  ẫ acircumflextilde
-0x1EA3  ả ahookabove
-0x1EBF  ế ecircumflexacute
-0x1EC7  ệ ecircumflexdotbelow
-0x1EC1  ề ecircumflexgrave
-0x1EC3  ể ecircumflexhookabove
-0x1EC5  ễ ecircumflextilde
-0x1EBB  ẻ ehookabove
-0x1EC8  Ỉ Ihookabove
-0x1EC9  ỉ ihookabove
-0x1ED1  ố ocircumflexacute
-0x1ED9  ộ ocircumflexdotbelow
-0x1ED3  ồ ocircumflexgrave
-0x1ED5  ổ ocircumflexhookabove
-0x1ED7  ỗ ocircumflextilde
-0x1ECF  ỏ ohookabove
-0x01A1  ơ ohorn
-0x1EDB  ớ ohornacute
-0x1EE3  ợ ohorndotbelow
-0x1EDD  ờ ohorngrave
-0x1EDF  ở ohornhookabove
-0x1EE1  ỡ ohorntilde
-0x01B0  ư uhorn
-0x1EE9  ứ uhornacute
-0x1EF1  ự uhorndotbelow
-0x1EEB  ừ uhorngrave
-0x1EED  ử uhornhookabove
-0x1EEF  ữ uhorntilde
-0x1EF5  ỵ ydotbelow
-0x1EF7  ỷ yhookabove
-0x20A1  ₡ colonsign
-0x20A3  ₣ franc
-0x20A4  ₤ lira
-0x20A6  ₦ naira
-0x20A7  ₧ peseta
-0x20A9  ₩ won
-0x20AB  ₫ dong
-0x20AD  ₭ kip
-0x20B1  ₱ peso
-0x20B2  ₲ guarani
-0x20B5  ₵ cedi
-0x20B9  ₹ rupeeIndian
-0x20BA  ₺ liraTurkish
-0x20BC  ₼ manat
-0x20BD  ₽ ruble
-          zero.dnom
-          one.dnom
-          two.dnom
-          three.dnom
-          four.dnom
-          five.dnom
-          six.dnom
-          seven.dnom
-          eight.dnom
-          nine.dnom
-          zero.numr
-          one.numr
-          two.numr
-          three.numr
-          four.numr
-          five.numr
-          six.numr
-          seven.numr
-          eight.numr
-          nine.numr
+0x0375  ͵
 0x03C0  π pi
-0x2113  ℓ literSign
-0x2126  Ω Ohm
-0x212E  ℮ estimated
-0x2202  ∂ partialdiff
-0x2206  ∆ increment
-0x220F  ∏ product
-0x2211  ∑ summation
-0x221A  √ radical
-0x221E  ∞ infinity
-0x222B  ∫ integral
-0x25CA  ◊ lozenge
-0x2205  ∅ emptyset
-0x02BB  ʻ commaturnedmod
-0x02BE  ʾ ringhalfright
-0x02BF  ʿ ringhalfleft
-0x02C8  ˈ verticallinemod
-0x02CA  ˊ secondtonechinese
-0x02CB  ˋ fourthtonechinese
-0x02CC  ˌ verticallinelowmod
 0x1E08  Ḉ Ccedillaacute
 0x1E09  ḉ ccedillaacute
 0x1E0C  Ḍ Ddotbelow
@@ -668,11 +531,108 @@
 0x1E79  ṹ utildeacute
 0x1E7A  Ṻ Umacrondieresis
 0x1E7B  ṻ umacrondieresis
+0x1E80  Ẁ Wgrave
+0x1E81  ẁ wgrave
+0x1E82  Ẃ Wacute
+0x1E83  ẃ wacute
+0x1E84  Ẅ Wdieresis
+0x1E85  ẅ wdieresis
 0x1E8E  Ẏ Ydotaccent
 0x1E8F  ẏ ydotaccent
 0x1E92  Ẓ Zdotbelow
 0x1E93  ẓ zdotbelow
 0x1E97  ẗ tdieresis
+0x1E9E  ẞ Germandbls
+0x1EA0  Ạ Adotbelow
+0x1EA1  ạ adotbelow
+0x1EA2  Ả Ahookabove
+0x1EA3  ả ahookabove
+0x1EA4  Ấ Acircumflexacute
+0x1EA5  ấ acircumflexacute
+0x1EA6  Ầ Acircumflexgrave
+0x1EA7  ầ acircumflexgrave
+0x1EA8  Ẩ Acircumflexhookabove
+0x1EA9  ẩ acircumflexhookabove
+0x1EAA  Ẫ Acircumflextilde
+0x1EAB  ẫ acircumflextilde
+0x1EAC  Ậ Acircumflexdotbelow
+0x1EAD  ậ acircumflexdotbelow
+0x1EAE  Ắ Abreveacute
+0x1EAF  ắ abreveacute
+0x1EB0  Ằ Abrevegrave
+0x1EB1  ằ abrevegrave
+0x1EB2  Ẳ Abrevehookabove
+0x1EB3  ẳ abrevehookabove
+0x1EB4  Ẵ Abrevetilde
+0x1EB5  ẵ abrevetilde
+0x1EB6  Ặ Abrevedotbelow
+0x1EB7  ặ abrevedotbelow
+0x1EB8  Ẹ Edotbelow
+0x1EB9  ẹ edotbelow
+0x1EBA  Ẻ Ehookabove
+0x1EBB  ẻ ehookabove
+0x1EBC  Ẽ Etilde
+0x1EBD  ẽ etilde
+0x1EBE  Ế Ecircumflexacute
+0x1EBF  ế ecircumflexacute
+0x1EC0  Ề Ecircumflexgrave
+0x1EC1  ề ecircumflexgrave
+0x1EC2  Ể Ecircumflexhookabove
+0x1EC3  ể ecircumflexhookabove
+0x1EC4  Ễ Ecircumflextilde
+0x1EC5  ễ ecircumflextilde
+0x1EC6  Ệ Ecircumflexdotbelow
+0x1EC7  ệ ecircumflexdotbelow
+0x1EC8  Ỉ Ihookabove
+0x1EC9  ỉ ihookabove
+0x1ECA  Ị Idotbelow
+0x1ECB  ị idotbelow
+0x1ECC  Ọ Odotbelow
+0x1ECD  ọ odotbelow
+0x1ECE  Ỏ Ohookabove
+0x1ECF  ỏ ohookabove
+0x1ED0  Ố Ocircumflexacute
+0x1ED1  ố ocircumflexacute
+0x1ED2  Ồ Ocircumflexgrave
+0x1ED3  ồ ocircumflexgrave
+0x1ED4  Ổ Ocircumflexhookabove
+0x1ED5  ổ ocircumflexhookabove
+0x1ED6  Ỗ Ocircumflextilde
+0x1ED7  ỗ ocircumflextilde
+0x1ED8  Ộ Ocircumflexdotbelow
+0x1ED9  ộ ocircumflexdotbelow
+0x1EDA  Ớ Ohornacute
+0x1EDB  ớ ohornacute
+0x1EDC  Ờ Ohorngrave
+0x1EDD  ờ ohorngrave
+0x1EDE  Ở Ohornhookabove
+0x1EDF  ở ohornhookabove
+0x1EE0  Ỡ Ohorntilde
+0x1EE1  ỡ ohorntilde
+0x1EE2  Ợ Ohorndotbelow
+0x1EE3  ợ ohorndotbelow
+0x1EE4  Ụ Udotbelow
+0x1EE5  ụ udotbelow
+0x1EE6  Ủ Uhookabove
+0x1EE7  ủ uhookabove
+0x1EE8  Ứ Uhornacute
+0x1EE9  ứ uhornacute
+0x1EEA  Ừ Uhorngrave
+0x1EEB  ừ uhorngrave
+0x1EEC  Ử Uhornhookabove
+0x1EED  ử uhornhookabove
+0x1EEE  Ữ Uhorntilde
+0x1EEF  ữ uhorntilde
+0x1EF0  Ự Uhorndotbelow
+0x1EF1  ự uhorndotbelow
+0x1EF2  Ỳ Ygrave
+0x1EF3  ỳ ygrave
+0x1EF4  Ỵ Ydotbelow
+0x1EF5  ỵ ydotbelow
+0x1EF6  Ỷ Yhookabove
+0x1EF7  ỷ yhookabove
+0x1EF8  Ỹ Ytilde
+0x1EF9  ỹ ytilde
 0x2007    figurespace
 0x2008    punctuationspace
 0x2009    thinspace
@@ -680,15 +640,34 @@
 0x200B  ​ zerowidthspace
 0x2010  ‐ hyphentwo
 0x2012  ‒ figuredash
+0x2013  – endash
+0x2014  — emdash
 0x2015  ― horizontalbar
+0x2018  ‘ quoteleft
+0x2019  ’ quoteright
+0x201A  ‚ quotesinglbase
+0x201C  “ quotedblleft
+0x201D  ” quotedblright
+0x201E  „ quotedblbase
+0x2020  † dagger
+0x2021  ‡ daggerdbl
+0x2022  • bullet
+0x2026  … ellipsis
+0x2030  ‰ perthousand
 0x2032  ′ prime
 0x2033  ″ second
+0x2039  ‹ guilsinglleft
+0x203A  › guilsinglright
+0x2044  ⁄ fraction
 0x2070  ⁰ zerosuperior
+0x2074  ⁴ foursuperior
 0x2075  ⁵ fivesuperior
 0x2076  ⁶ sixsuperior
 0x2077  ⁷ sevensuperior
 0x2078  ⁸ eightsuperior
 0x2079  ⁹ ninesuperior
+0x207b  ⁻
+0x207f  ⁿ
 0x2080  ₀ zeroinferior
 0x2081  ₁ oneinferior
 0x2082  ₂ twoinferior
@@ -699,13 +678,63 @@
 0x2087  ₇ seveninferior
 0x2088  ₈ eightinferior
 0x2089  ₉ nineinferior
-          zero.subs
-          one.subs
-          two.subs
-          three.subs
-          four.subs
-          five.subs
-          six.subs
-          seven.subs
-          eight.subs
-          nine.subs
+0x20A1  ₡ colonsign
+0x20A3  ₣ franc
+0x20A4  ₤ lira
+0x20A6  ₦ naira
+0x20A7  ₧ peseta
+0x20A9  ₩ won
+0x20AB  ₫ dong
+0x20AC  € euro
+0x20AD  ₭ kip
+0x20B1  ₱ peso
+0x20B2  ₲ guarani
+0x20B5  ₵ cedi
+0x20B9  ₹ rupeeIndian
+0x20BA  ₺ liraTurkish
+0x20BC  ₼ manat
+0x20BD  ₽ ruble
+0x2113  ℓ literSign
+0x2116  № numero
+0x2122  ™ trademark
+0x2124  ℤ
+0x2126  Ω Ohm
+0x212E  ℮ estimated
+0x21e7  ⇧
+0x21ea  ⇪
+0x2202  ∂ partialdiff
+0x2205  ∅ emptyset
+0x2206  ∆ increment
+0x2208  ∈
+0x220F  ∏ product
+0x2211  ∑ summation
+0x2212  − minus
+0x2215  ∕ divisionslash
+0x2219  ∙ bulletoperator
+0x221A  √ radical
+0x221E  ∞ infinity
+0x222B  ∫ integral
+0x2248  ≈ approxequal
+0x2260  ≠ notequal
+0x2264  ≤ lessequal
+0x2265  ≥ greaterequal
+0x2295  ⊕
+0x2318  ⌘
+0x2325  ⌥
+0x232b  ⌫
+0x237e  ⍾
+0x238b  ⎋
+0x23ce  ⏎
+0x25CA  ◊ lozenge
+0x25cb  ○
+0x2620  ☠
+0x2639  ☹
+0x263a  ☺
+0x2660  ♠
+0x2714  ✔
+0x2e12  ⸒
+0xFB00  ﬀ f_f
+0xFB01  ﬁ fi
+0xFB02  ﬂ fl
+0xFB03  ﬃ f_f_i
+0xFB04  ﬄ f_f_l
