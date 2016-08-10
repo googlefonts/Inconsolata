@@ -16,11 +16,17 @@ More specifically, this release supports the following Unicode
 ranges: Latin-1
 
 There are three source files:
-1. Inconsolata Bold-OTF.vfb (Merged contours)
-2. Inconsolata Bold-TTF.vfb (TTF countours)
-3. Inconsolata Bold.glyphs (glyphs file)
+1. sources/legacy/Inconsolata-Regular.glyphs (Legacy version ported to Glyphs)
+2. sources/legacy/Inconsolata Bold-OTF.vfb (Merged contours)
+3. sources/legacy/Inconsolata Bold-TTF.vfb (TTF countours)
+4. sources/InconsolataMM.glyphs (latest Glyphs file with two masters)
 
 ChangeLog
+
+19 August 2016 (Alexei Vanyashin) Inconsolata v 2.000
+— Extended charset to GF Latin Plus, GF Latin Pro
+— Added custom characters
+— Improved outline quality
 
 21 September 2015 (Dave Crossland) Inconsolata bold v. 1.016
 - Fixed internal metadata
@@ -40,7 +46,7 @@ This list is in alphabetical order.
 N: Alexei Vanyashin
 W: http://cyreal.org
 E: a at cyreal.org
-D: Mastering
+D: Mastering, Expansion to GF Latin Pro
 
 N: Kirill Tkachev
 W: http://cyreal.org
