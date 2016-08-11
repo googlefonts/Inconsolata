@@ -332,7 +332,7 @@ Apostrophe
 date = "2010-11-04 22:12:46 +0000";
 designer = "Raph Levien, Kirill Tkachev (cyreal.org)";
 designerURL = www.levien.com;
-familyName = Inconsolata;
+familyName = "Inconsolata-1";
 fontMaster = (
 {
 ascender = 859;
