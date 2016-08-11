@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+s
+);
 copyright = "Copyright (c) 2006-2012, Raph Levien (firstname.lastname@gmail.com)";
 customParameters = (
 {
