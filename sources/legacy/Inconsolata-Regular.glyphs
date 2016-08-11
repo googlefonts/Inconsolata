@@ -1,9 +1,6 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/tilde.case
-);
-copyright = "Copyright (c) 2006-2012, Raph Levien (firstname.lastname@gmail.com), Copyright (c) 2011-2012, Cyreal (cyreal.org)";
+copyright = "Copyright (c) 2006-2012, Raph Levien (firstname.lastname@gmail.com)";
 customParameters = (
 {
 name = licenseURL;
@@ -330,9 +327,9 @@ Apostrophe
 }
 );
 date = "2010-11-04 22:12:46 +0000";
-designer = "Raph Levien, Kirill Tkachev (cyreal.org)";
+designer = "Raph Levien";
 designerURL = www.levien.com;
-familyName = "Inconsolata-1";
+familyName = Inconsolata1;
 fontMaster = (
 {
 ascender = 859;
@@ -11862,7 +11859,7 @@ name = Regular;
 weightClass = Normal;
 }
 );
-manufacturer = "Raph Levien, Kirill Tkachev (cyreal.org)";
+manufacturer = "Raph Levien";
 manufacturerURL = www.cyreal.org;
 unitsPerEm = 1000;
 versionMajor = 1;

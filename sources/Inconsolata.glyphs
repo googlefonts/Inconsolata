@@ -1,7 +1,11 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-www.
+classes = (
+{
+automatic = 1;
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D DZ DZcaron Eth Dcaron Dcroat Dz Dzcaron E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I Iacute Ibreve Icircumflex Idblgrave Idieresis Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Lj Lslash M N NJ Nacute Ncaron Ncommaaccent Eng Nj Ntilde O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Oogonek Oslash Oslashacute Otilde Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rinvertedbreve S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent";
+name = Uppercase;
+}
 );
 copyright = "Created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien.";
 customParameters = (
@@ -21,15 +25,30 @@ familyName = Inconsolata2;
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012";
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012";
 name = Languagesystems;
 }
 );
 features = (
 {
 automatic = 1;
-code = "feature frac;\012feature ordn;\012feature case;\012";
+code = "feature frac;\012feature ordn;\012feature case;\012feature ccmp;\012feature locl;\012feature sups;\012feature zero;\012";
 name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_latn_1 {\012	script latn;\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb acute breve caron circumflex dieresis dotaccent grave hungarumlaut ring tilde];\012	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case acute.case breve.case caron.case circumflex.case dieresis.case dotaccent.case grave.case hungarumlaut.case ring.case tilde.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_latn_2;\012";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;\012language CAT;\012sub l periodcentered' l by periodcentered.loclCAT;\012sub L periodcentered' L by periodcentered.loclCAT;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012";
+name = locl;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012";
+name = sups;
 },
 {
 automatic = 1;
@@ -38,13 +57,23 @@ name = frac;
 },
 {
 automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
 name = ordn;
 },
 {
 automatic = 1;
-code = "sub acute by acute.case;\012sub breve by breve.case;\012sub caron by caron.case;\012sub circumflex by circumflex.case;\012sub dieresis by dieresis.case;\012sub dotaccent by dotaccent.case;\012sub grave by grave.case;\012sub hungarumlaut by hungarumlaut.case;\012sub ring by ring.case;\012sub tilde by tilde.case;\012";
+code = "sub dieresiscomb by dieresiscomb.case;\012sub dotaccentcomb by dotaccentcomb.case;\012sub gravecomb by gravecomb.case;\012sub acutecomb by acutecomb.case;\012sub hungarumlautcomb by hungarumlautcomb.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub brevecomb by brevecomb.case;\012sub ringcomb by ringcomb.case;\012sub tildecomb by tildecomb.case;\012sub acute by acute.case;\012sub breve by breve.case;\012sub caron by caron.case;\012sub circumflex by circumflex.case;\012sub dieresis by dieresis.case;\012sub dotaccent by dotaccent.case;\012sub grave by grave.case;\012sub hungarumlaut by hungarumlaut.case;\012sub ring by ring.case;\012sub tilde by tilde.case;\012";
 name = case;
+},
+{
+automatic = 1;
+code = "sub f f l by f_f_l;\012sub f f i by f_f_i;\012sub f i by fi;\012sub f f by f_f;\012sub f l by fl;\012";
+name = liga;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;\012";
+name = zero;
 }
 );
 fontMaster = (
@@ -25707,7 +25736,7 @@ unicode = 0169;
 {
 color = 4;
 glyphname = v;
-lastChange = "2016-08-10 02:08:16 +0000";
+lastChange = "2016-08-11 07:15:45 +0000";
 layers = (
 {
 anchors = (
@@ -25755,15 +25784,16 @@ paths = (
 closed = 1;
 nodes = (
 "294 0 LINE",
-"398 253 LINE",
-"428 325 OFFCURVE",
-"452 400 OFFCURVE",
-"468 467 CURVE",
-"361 467 LINE",
-"349 411 OFFCURVE",
-"327 336 OFFCURVE",
-"304 268 CURVE SMOOTH",
-"259 136 LINE",
+"405 281 LINE",
+"429 343 OFFCURVE",
+"454 405 OFFCURVE",
+"458 467 CURVE",
+"359 467 LINE",
+"359 409 OFFCURVE",
+"340 352 OFFCURVE",
+"320 294 CURVE",
+"240 93 LINE",
+"263 94 LINE",
 "136 467 LINE",
 "25 467 LINE",
 "202 0 LINE"
@@ -25792,12 +25822,13 @@ nodes = (
 "388 257 LINE SMOOTH",
 "421 334 OFFCURVE",
 "444 401 OFFCURVE",
-"457 457 CURVE",
-"392 457 LINE",
-"381 404 OFFCURVE",
-"362 341 OFFCURVE",
-"330 268 CURVE SMOOTH",
-"256 98 LINE",
+"455 457 CURVE",
+"387 457 LINE",
+"378 404 OFFCURVE",
+"359 341 OFFCURVE",
+"327 268 CURVE SMOOTH",
+"246 82 LINE",
+"263 82 LINE",
 "112 457 LINE",
 "40 457 LINE",
 "221 0 LINE"
@@ -26163,7 +26194,7 @@ unicode = 0078;
 {
 color = 4;
 glyphname = y;
-lastChange = "2016-08-10 02:54:11 +0000";
+lastChange = "2016-08-11 07:12:54 +0000";
 layers = (
 {
 anchors = (
@@ -26230,8 +26261,14 @@ nodes = (
 "199 -177 OFFCURVE",
 "254 -140 OFFCURVE",
 "288 -51 CURVE",
-"474 467 LINE",
-"367 467 LINE",
+"409 287 LINE",
+"431 347 OFFCURVE",
+"452 407 OFFCURVE",
+"454 467 CURVE",
+"347 467 LINE",
+"350 413 OFFCURVE",
+"333 360 OFFCURVE",
+"316 306 CURVE",
 "265 145 LINE",
 "152 467 LINE",
 "31 467 LINE",
@@ -26239,9 +26276,10 @@ nodes = (
 "194 -35 OFFCURVE",
 "168 -86 OFFCURVE",
 "126 -86 CURVE SMOOTH",
-"88 -86 OFFCURVE",
-"80 -60 OFFCURVE",
-"57 -43 CURVE",
+"91 -86 OFFCURVE",
+"66 -62 OFFCURVE",
+"64 -45 CURVE",
+"59 -41 LINE",
 "11 -124 LINE",
 "48 -159 OFFCURVE",
 "89 -177 OFFCURVE",
@@ -26259,10 +26297,81 @@ position = "{370, 0}";
 },
 {
 name = top;
+position = "{253, 457}";
+}
+);
+background = {
+paths = (
+{
+closed = 0;
+nodes = (
+"383 257 LINE SMOOTH",
+"416 334 OFFCURVE",
+"439 401 OFFCURVE",
+"450 457 CURVE",
+"385 457 LINE",
+"376 404 OFFCURVE",
+"357 341 OFFCURVE",
+"325 268 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+paths = (
+{
+closed = 1;
+nodes = (
+"273 76 LINE",
+"125 457 LINE",
+"46 457 LINE",
+"237 -13 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"208 -76 OFFCURVE",
+"185 -115 OFFCURVE",
+"131 -115 CURVE SMOOTH",
+"98 -115 OFFCURVE",
+"66 -103 OFFCURVE",
+"59 -76 CURVE",
+"22 -135 LINE",
+"49 -161 OFFCURVE",
+"84 -174 OFFCURVE",
+"127 -174 CURVE SMOOTH",
+"192 -174 OFFCURVE",
+"243 -141 OFFCURVE",
+"275 -52 CURVE",
+"389 270 LINE SMOOTH",
+"411 332 OFFCURVE",
+"434 395 OFFCURVE",
+"443 457 CURVE",
+"375 457 LINE",
+"368 396 OFFCURVE",
+"348 336 OFFCURVE",
+"327 275 CURVE SMOOTH",
+"236 6 LINE SMOOTH"
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{370, 0}";
+},
+{
+name = top;
 position = "{250, 457}";
 }
 );
-layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+associatedMasterId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+layerId = "7DA108A7-2D58-432A-9CB1-A1A450EE9F36";
+name = "2";
 paths = (
 {
 closed = 1;
@@ -26297,7 +26406,7 @@ unicode = 0079;
 {
 color = 4;
 glyphname = yacute;
-lastChange = "2016-08-10 02:54:58 +0000";
+lastChange = "2016-08-11 07:15:53 +0000";
 layers = (
 {
 background = {
@@ -26374,7 +26483,7 @@ name = y;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, -30, 0}";
+transform = "{1, 0, 0, 1, -27, 0}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -26386,7 +26495,7 @@ unicode = 00FD;
 {
 color = 5;
 glyphname = ycircumflex;
-lastChange = "2016-08-10 02:55:09 +0000";
+lastChange = "2016-08-11 07:15:53 +0000";
 layers = (
 {
 components = (
@@ -26395,7 +26504,7 @@ name = y;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -6, 0}";
+transform = "{1, 0, 0, 1, -3, 0}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -26420,7 +26529,7 @@ unicode = 0177;
 {
 color = 4;
 glyphname = ydieresis;
-lastChange = "2016-08-10 02:54:58 +0000";
+lastChange = "2016-08-11 07:15:53 +0000";
 layers = (
 {
 background = {
@@ -26528,7 +26637,7 @@ name = y;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -2, 0}";
+transform = "{1, 0, 0, 1, 1, 0}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -26573,7 +26682,7 @@ unicode = 1EF5;
 {
 color = 5;
 glyphname = ygrave;
-lastChange = "2016-08-10 02:55:04 +0000";
+lastChange = "2016-08-11 07:15:53 +0000";
 layers = (
 {
 components = (
@@ -26582,7 +26691,7 @@ name = y;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, -23, 0}";
+transform = "{1, 0, 0, 1, -20, 0}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -26638,7 +26747,7 @@ unicode = 1EF7;
 {
 color = 5;
 glyphname = ymacron;
-lastChange = "2016-08-10 02:55:12 +0000";
+lastChange = "2016-08-11 07:15:53 +0000";
 layers = (
 {
 components = (
@@ -26647,6 +26756,7 @@ name = y;
 },
 {
 name = macroncomb;
+transform = "{1, 0, 0, 1, 3, 0}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -26671,7 +26781,7 @@ unicode = 0233;
 {
 color = 5;
 glyphname = ytilde;
-lastChange = "2016-08-10 02:55:09 +0000";
+lastChange = "2016-08-11 07:15:53 +0000";
 layers = (
 {
 components = (
@@ -26680,7 +26790,7 @@ name = y;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, -10, 0}";
+transform = "{1, 0, 0, 1, -7, 0}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -43809,6 +43919,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
 interpolationWeight = 150;
 instanceInterpolations = {
 "051EFAE4-8BBE-4FBB-A016-4335C3E52F59" = -0.5;
