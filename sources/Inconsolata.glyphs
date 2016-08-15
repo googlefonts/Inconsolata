@@ -1,8 +1,5 @@
 {
-.appVersion = "895";
-DisplayStrings = (
-"/pi s"
-);
+.appVersion = "913";
 classes = (
 {
 automatic = 1;
@@ -51668,8 +51665,9 @@ width = 500;
 );
 },
 {
+color = 8;
 glyphname = circumflexcomb_acutecomb;
-lastChange = "2016-08-15 16:12:23 +0000";
+lastChange = "2016-08-15 17:38:39 +0000";
 layers = (
 {
 anchors = (
@@ -51690,7 +51688,7 @@ transform = "{1, 0, 0, 1, 6, 0}";
 {
 alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 118, 94}";
+transform = "{1, 0, 0, 1, 137, 124}";
 }
 );
 guideLines = (
@@ -51721,7 +51719,7 @@ transform = "{1, 0, 0, 1, 9, 0}";
 {
 alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 139, 113}";
+transform = "{1, 0, 0, 1, 150, 146}";
 }
 );
 guideLines = (
@@ -51736,8 +51734,9 @@ width = 500;
 );
 },
 {
+color = 8;
 glyphname = circumflexcomb_gravecomb;
-lastChange = "2016-08-15 16:12:23 +0000";
+lastChange = "2016-08-15 17:38:44 +0000";
 layers = (
 {
 anchors = (
@@ -51758,7 +51757,7 @@ transform = "{1, 0, 0, 1, 8, 0}";
 {
 alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, 122, 91}";
+transform = "{1, 0, 0, 1, 130, 145}";
 }
 );
 guideLines = (
@@ -51789,7 +51788,7 @@ transform = "{1, 0, 0, 1, 9, 0}";
 {
 alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, 136, 110}";
+transform = "{1, 0, 0, 1, 125, 152}";
 }
 );
 guideLines = (
@@ -51956,8 +51955,9 @@ width = 500;
 );
 },
 {
+color = 8;
 glyphname = circumflexcomb_acutecomb.case;
-lastChange = "2016-08-15 16:12:23 +0000";
+lastChange = "2016-08-15 17:38:28 +0000";
 layers = (
 {
 anchors = (
@@ -51977,7 +51977,7 @@ name = circumflexcomb.case;
 {
 alignment = -1;
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 159, 87}";
+transform = "{1, 0, 0, 1, 174, 106}";
 }
 );
 guideLines = (
@@ -52005,8 +52005,9 @@ components = (
 name = circumflexcomb.case;
 },
 {
+alignment = -1;
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 153, 107}";
+transform = "{1, 0, 0, 1, 188, 120}";
 }
 );
 guideLines = (
@@ -52021,8 +52022,9 @@ width = 500;
 );
 },
 {
+color = 8;
 glyphname = circumflexcomb_gravecomb.case;
-lastChange = "2016-08-15 16:12:23 +0000";
+lastChange = "2016-08-15 17:38:28 +0000";
 layers = (
 {
 components = (
@@ -52032,7 +52034,7 @@ name = circumflexcomb.case;
 {
 alignment = -1;
 name = gravecomb.case;
-transform = "{1, 0, 0, 1, 88, 92}";
+transform = "{1, 0, 0, 1, 20, 138}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -52046,7 +52048,7 @@ name = circumflexcomb.case;
 {
 alignment = -1;
 name = gravecomb.case;
-transform = "{1, 0, 0, 1, 104, 107}";
+transform = "{1, 0, 0, 1, 20, 162}";
 }
 );
 guideLines = (
