@@ -958,7 +958,7 @@ unicode = 1EAA;
 },
 {
 glyphname = Adblgrave;
-lastChange = "2016-08-15 16:12:23 +0000";
+lastChange = "2016-08-18 13:10:02 +0000";
 layers = (
 {
 components = (
@@ -980,7 +980,7 @@ name = A;
 },
 {
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, -11, 156}";
+transform = "{1, 0, 0, 1, 5, 156}";
 }
 );
 layerId = UUID0;
@@ -991,7 +991,7 @@ unicode = 0200;
 },
 {
 glyphname = Adieresis;
-lastChange = "2016-08-15 16:12:23 +0000";
+lastChange = "2016-08-18 13:10:02 +0000";
 layers = (
 {
 background = {
@@ -1065,7 +1065,7 @@ name = A;
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, -10, 0}";
+transform = "{1, 0, 0, 1, 6, 0}";
 }
 );
 layerId = UUID0;
@@ -1189,7 +1189,7 @@ unicode = 00C0;
 },
 {
 glyphname = Ahookabove;
-lastChange = "2016-08-15 16:12:23 +0000";
+lastChange = "2016-08-18 13:10:02 +0000";
 layers = (
 {
 components = (
@@ -1211,7 +1211,7 @@ name = A;
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, -6, 156}";
+transform = "{1, 0, 0, 1, 10, 156}";
 }
 );
 layerId = UUID0;
@@ -1255,7 +1255,7 @@ unicode = 0202;
 },
 {
 glyphname = Amacron;
-lastChange = "2016-08-15 16:12:23 +0000";
+lastChange = "2016-08-18 13:10:02 +0000";
 layers = (
 {
 components = (
@@ -1277,7 +1277,7 @@ name = A;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, -8, 156}";
+transform = "{1, 0, 0, 1, 8, 156}";
 }
 );
 layerId = UUID0;
@@ -1288,7 +1288,7 @@ unicode = 0100;
 },
 {
 glyphname = Aogonek;
-lastChange = "2016-08-16 09:34:34 +0000";
+lastChange = "2016-08-18 13:10:02 +0000";
 layers = (
 {
 background = {
@@ -1341,7 +1341,7 @@ name = A;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 96, 0}";
+transform = "{1, 0, 0, 1, 128, 0}";
 }
 );
 layerId = UUID0;
