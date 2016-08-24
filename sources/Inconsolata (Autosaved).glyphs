@@ -32,10 +32,10 @@ value = "http://scripts.sil.org/OFL";
 },
 {
 name = "Use Typo Metrics";
-value = 1;
+value = 0;
 }
 );
-date = "2016-08-24 21:31:16 +0000";
+date = "2016-08-24 23:32:12 +0000";
 designer = "Raph Levien, Cyreal";
 designerURL = "http://www.levien.com";
 familyName = Inconsolata;

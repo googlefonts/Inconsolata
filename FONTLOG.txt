@@ -19,7 +19,7 @@ There are three source files:
 1. sources/legacy/Inconsolata-Regular.glyphs (Legacy version ported to Glyphs)
 2. sources/legacy/Inconsolata Bold-OTF.vfb (Merged contours)
 3. sources/legacy/Inconsolata Bold-TTF.vfb (TTF countours)
-4. sources/InconsolataMM.glyphs (latest Glyphs file with two masters)
+4. sources/Inconsolata.glyphs (latest Glyphs file with two masters)
 
 ChangeLog
 
@@ -32,7 +32,7 @@ ChangeLog
 - Fixed internal metadata
 - Updated ttfautohint to v1.3
 
-18 September 2012 (Alexei Vanyashiin) Inconsolata bold v. 1.014
+18 September 2012 (Alexei Vanyashin) Inconsolata bold v. 1.014
 - Fixed spacing issue associated with the character "4" and "0"
 - Applied ttfautohint (to fix windows rendering problem that occurred in v 1.000)
 
@@ -55,4 +55,5 @@ D: Designer of Bold version
 
 N: Raph Levien
 E: firstname.lastname@gmail.com
+W: http://levien.com
 D: Original Designer
