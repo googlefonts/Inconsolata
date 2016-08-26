@@ -1,5 +1,8 @@
 {
 .appVersion = "916";
+DisplayStrings = (
+0/zero.ss02/zero.zero
+);
 copyright = "Created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien and Inconsolata Project Authors";
 customParameters = (
 {
@@ -35855,7 +35858,7 @@ unicode = 0039;
 },
 {
 glyphname = zero.ss02;
-lastChange = "2016-08-26 09:39:35 +0000";
+lastChange = "2016-08-26 10:13:09 +0000";
 layers = (
 {
 background = {
@@ -35984,7 +35987,7 @@ width = 500;
 },
 {
 glyphname = zero.zero;
-lastChange = "2016-08-26 09:39:17 +0000";
+lastChange = "2016-08-26 10:13:09 +0000";
 layers = (
 {
 background = {
@@ -56291,7 +56294,7 @@ unicode = 2325;
 {
 color = 4;
 glyphname = propellor;
-lastChange = "2016-08-25 16:32:47 +0000";
+lastChange = "2016-08-26 09:53:06 +0000";
 layers = (
 {
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -56426,172 +56429,6 @@ nodes = (
 width = 500;
 },
 {
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"944 7 OFFCURVE",
-"980 43 OFFCURVE",
-"980 87 CURVE SMOOTH",
-"980 167 LINE",
-"900 167 LINE SMOOTH",
-"856 167 OFFCURVE",
-"820 131 OFFCURVE",
-"820 87 CURVE SMOOTH",
-"820 43 OFFCURVE",
-"856 7 OFFCURVE",
-"900 7 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"164 10 OFFCURVE",
-"204 51 OFFCURVE",
-"204 101 CURVE SMOOTH",
-"204 191 LINE",
-"114 191 LINE SMOOTH",
-"64 191 OFFCURVE",
-"23 151 OFFCURVE",
-"23 101 CURVE SMOOTH",
-"23 51 OFFCURVE",
-"64 10 OFFCURVE",
-"114 10 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"84 46 OFFCURVE",
-"59 71 OFFCURVE",
-"59 101 CURVE SMOOTH",
-"59 131 OFFCURVE",
-"84 155 OFFCURVE",
-"114 155 CURVE SMOOTH",
-"168 155 LINE",
-"168 101 LINE SMOOTH",
-"168 71 OFFCURVE",
-"144 46 OFFCURVE",
-"114 46 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"168 155 LINE",
-"326 155 LINE",
-"326 312 LINE",
-"168 312 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"290 276 LINE",
-"290 191 LINE",
-"204 191 LINE",
-"204 276 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"23 316 OFFCURVE",
-"64 276 OFFCURVE",
-"114 276 CURVE SMOOTH",
-"204 276 LINE",
-"204 366 LINE SMOOTH",
-"204 416 OFFCURVE",
-"164 457 OFFCURVE",
-"114 457 CURVE SMOOTH",
-"64 457 OFFCURVE",
-"23 416 OFFCURVE",
-"23 366 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"59 396 OFFCURVE",
-"84 421 OFFCURVE",
-"114 421 CURVE SMOOTH",
-"144 421 OFFCURVE",
-"168 396 OFFCURVE",
-"168 366 CURVE SMOOTH",
-"168 312 LINE",
-"114 312 LINE SMOOTH",
-"84 312 OFFCURVE",
-"59 336 OFFCURVE",
-"59 366 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"430 10 OFFCURVE",
-"471 51 OFFCURVE",
-"471 101 CURVE SMOOTH",
-"471 151 OFFCURVE",
-"430 191 OFFCURVE",
-"380 191 CURVE SMOOTH",
-"290 191 LINE",
-"290 101 LINE SMOOTH",
-"290 51 OFFCURVE",
-"330 10 OFFCURVE",
-"380 10 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"350 46 OFFCURVE",
-"326 71 OFFCURVE",
-"326 101 CURVE SMOOTH",
-"326 155 LINE",
-"380 155 LINE SMOOTH",
-"410 155 OFFCURVE",
-"435 131 OFFCURVE",
-"435 101 CURVE SMOOTH",
-"435 71 OFFCURVE",
-"410 46 OFFCURVE",
-"380 46 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"471 416 OFFCURVE",
-"430 457 OFFCURVE",
-"380 457 CURVE SMOOTH",
-"330 457 OFFCURVE",
-"290 416 OFFCURVE",
-"290 366 CURVE SMOOTH",
-"290 276 LINE",
-"380 276 LINE SMOOTH",
-"430 276 OFFCURVE",
-"471 316 OFFCURVE",
-"471 366 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"435 336 OFFCURVE",
-"410 312 OFFCURVE",
-"380 312 CURVE SMOOTH",
-"326 312 LINE",
-"326 366 LINE SMOOTH",
-"326 396 OFFCURVE",
-"350 421 OFFCURVE",
-"380 421 CURVE SMOOTH",
-"410 421 OFFCURVE",
-"435 396 OFFCURVE",
-"435 366 CURVE SMOOTH"
-);
-}
-);
-};
 layerId = UUID0;
 paths = (
 {
