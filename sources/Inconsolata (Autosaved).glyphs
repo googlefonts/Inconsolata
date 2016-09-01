@@ -51131,8 +51131,9 @@ width = 500;
 unicode = 2B05;
 },
 {
+color = 4;
 glyphname = blackCircle;
-lastChange = "2016-09-01 05:18:02 +0000";
+lastChange = "2016-09-01 06:57:15 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -51184,8 +51185,9 @@ width = 500;
 unicode = 25CF;
 },
 {
+color = 4;
 glyphname = whiteCircle;
-lastChange = "2016-08-19 17:41:47 +0000";
+lastChange = "2016-09-01 06:57:15 +0000";
 layers = (
 {
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";

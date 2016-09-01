@@ -1,0 +1,81 @@
+Nigel:
+
+Thanks for being so responsive.
+
+Still, looking once again at my list, I'd take a few more glyphs out, despite your lovely renderings:
+U+2295 'CIRCLED PLUS'
+U+237E 'BELL SYMBOL'
+U+238B 'BROKEN CIRCLE WITH NORTHWEST ARROW'
+U+2620 'SKULL AND CROSSBONES'
+U+2714 'HEAVY CHECK MARK'
+These are all part of larger sets, not one-off glyphs, but my guess is that these sets don't actually come up often enough to be worth it.
+
+I'd also leave these two:
+U+FB01 'LATIN SMALL LIGATURE FI'
+U+FB02 'LATIN SMALL LIGATURE FL'
+out as I don't usually associate ligatures with programming fonts, and again, these are just two glyphs of an incomplete set (https://en.wikipedia.org/wiki/Alphabetic_Presentation_Forms).
+
+I also suspect that these three:
+U+2113 'SCRIPT SMALL L'
+U+212E 'ESTIMATED SYMBOL'
+U+25CA 'LOZENGE'
+are relatively rare, but they weren't on my original list, so perhaps you had a separate reason to add them. Maybe they're on a Google Fonts list?? I'm not that familiar with the GF sets, sorry.
+
+On a similar theme of set completeness, if you're going to have
+U+25CB 'WHITE CIRCLE'
+then I'd either add
+U+25CF 'BLACK CIRCLE'
+or leave both of them out. But really, it's hard to know where to draw the metaphorical leave-in / leave-out line in the https://en.wikipedia.org/wiki/Geometric_Shapes set.
+
+As for the double struck math symbols, again, I'm not sure if the full set comes up that often. I've only ever seen the upper case forms used, in math, and not the lower case forms.
+
+For all these glyphs mentioned above, I think it's fine to just leave them out of Inconsolata 2.0. You could of course do the extra work to complete the various sets, if you're having fun and, as you said, it's a labor of love. But completing these rarer glyphs means you're spending less time on other fonts. Inconsolata 2.0 is already looking like a great improvement in coverage, and I also already have my pony! The final decision is, of course, up to you. Just my two cents' worth of opinion from somebody not doing the work. :-)
+
+On a separate note, looking at an earlier rendering,
+U+2248 'ALMOST EQUAL TO'
+looks a little low to me. It should be vertically similar to the ASCII equals sign '=', instead of top-aligned with the ASCII tilde sign '~'.
+
+Out of curiousity, what's your plan for hinting all these new glyphs? 
+
+
+
+RAPH:
+Again, some quick thoughts. I actually did get a chance to review in more detail.
+
+Just having the double-struck Z is fine, I think. It's vastly more likely to be used in code than the other double-struck caps because of its role in cryptography. At some point you want a font with a complete set of math symbols, which is a worthy project but well beyond the scope of this one.
+
+I'd prefer the straight quotes to be in the default ASCII slots, and the semi-curly ones to be a stylistic set. This isn't personally a dealbreaker for me because I'll add the OpenType feature stuff to xi, but for people using other editors and IDE's I think it could make a big difference. And I think it's consistent with the theme that the defaults work like a terminal, but if you want a more "typographic" treatment you can get it (in a tool that supports it).
+
+U+0259 schwa seems upside down.
+
+If U+FB02 is encoded, then FB01 should be as well. I'm also ok with neither, but I occasionally find them useful because you can tell if text is accidentally encoded using these codepoints. If FB02 remains, please remove the ligature forming this from "f" and "l"; in a monospace font I'd consider that a bug. I'd prefer if it this weren't even available as a dlig. Regarding the others in this block, I'm looking at some character frequency data and (surprisingly) the others in FBxx are used almost as much as 01 and 02. I'd probably lean towards no FBxx
+
+I'm reluctant to take many more of the symbols out. U+25CA is used in modal logic, which is fairly specialized but is a thing. U+2295 represents "exclusive or" which will get some use. U+2714 will actually be fairly common to represent a checkbox or the result of a passing test. I think U+238B is included to round out keyboard symbols (it represents "escape"). They keyboard symbols are looking great, by the way! U+2620 looks stylistically out of place and I would be ok with taking it out; I don't think it gets used much.
+
+I think U+FA04 should be deleted, it's probably in my original font by mistake.
+
+Thanks for all your work on this! It has a bunch of technical requirements that I'm sure are unusual.
+
+Raph
+
+
+Nigel:
+
+My thing with U+2714 'HEAVY CHECK MARK' is, do you also take U+2713 'CHECK MARK', or any other nearby code points (https://en.wikipedia.org/wiki/Dingbat)?
+
+As for what programmers actually use, grepping my collection of source code yields:
+
+https://github.com/aclements/go-perf/blob/master/cmd/memlat/static/bower_components/webcomponentsjs/README.md uses U+2713
+https://github.com/golang/tools/blob/master/go/ssa/doc.go uses U+2714
+https://github.com/webmproject/libwebp/blob/master/doc/webp-lossless-bitstream-spec.txt uses U+2715
+https://github.com/golang/tools/blob/master/godoc/static/static.go uses U+2718
+No uses of U+2716 or U+2717 (in my sample).
+
+I'll leave the decision up to you (Raph and Alexei). I'm just giving data.
+
+ 
+
+    I think U+FA04 should be deleted, it's probably in my original font by mistake.
+
+
+Did you mean U+F40A 'Private Use'?
