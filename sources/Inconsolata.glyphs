@@ -1,7 +1,7 @@
 {
 .appVersion = "919";
 DisplayStrings = (
-""
+/multiplicationX/multiplicationX
 );
 classes = (
 {
@@ -51157,6 +51157,31 @@ width = 500;
 }
 );
 unicode = 2714;
+},
+{
+glyphname = multiplicationX;
+lastChange = "2016-09-01 11:51:00 +0000";
+layers = (
+{
+components = (
+{
+name = multiply;
+}
+);
+layerId = UUID0;
+width = 500;
+},
+{
+components = (
+{
+name = multiply;
+}
+);
+layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+width = 500;
+}
+);
+unicode = 2715;
 },
 {
 glyphname = ballotX;
