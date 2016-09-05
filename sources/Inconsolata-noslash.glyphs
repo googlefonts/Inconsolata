@@ -62264,18 +62264,32 @@ unicode = F40A;
 );
 instances = (
 {
+customParameters = (
+{
+name = "Remove Glyphs";
+value = (
+"zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.sups one.sups two.sups three.sups four.sups five.sups six.sups seven.sups eight.sups nine.sups "
+);
+}
+);
 interpolationWeight = 0;
 instanceInterpolations = {
 "051EFAE4-8BBE-4FBB-A016-4335C3E52F59" = 1;
 };
-name = Regular;
+name = "Regular A";
 },
 {
+customParameters = (
+{
+name = "Remove Glyphs";
+value = "zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr ";
+}
+);
 instanceInterpolations = {
 UUID0 = 1;
 };
 isBold = 1;
-name = Bold;
+name = "Bold A";
 weightClass = Bold;
 }
 );
