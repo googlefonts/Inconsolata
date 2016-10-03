@@ -1,8 +1,5 @@
 {
-.appVersion = "922";
-DisplayStrings = (
-"\U00AD"
-);
+.appVersion = "924";
 classes = (
 {
 automatic = 1;
@@ -10,19 +7,16 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien and Inconsolata Project Authors";
+copyright = "Copyright 2006 The Inconsolata Project Authors";
 customParameters = (
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
-name = openTypeOS2VendorID;
-value = CYRE;
-},
-{
 name = fsType;
-value = 0;
+value = (
+);
 },
 {
 name = vendorID;
@@ -35,11 +29,15 @@ value = "http://scripts.sil.org/OFL";
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = isFixedPitch;
+value = 1;
 }
 );
 date = "2016-09-01 06:11:27 +0000";
 designer = "Raph Levien, Cyreal";
-designerURL = "http://www.levien.com";
+designerURL = "http://www.levien.com | http://www.cyreal.org";
 familyName = Inconsolata;
 featurePrefixes = (
 {
@@ -169,7 +167,7 @@ value = 1004;
 },
 {
 name = winDescent;
-value = 307;
+value = 306;
 },
 {
 name = hheaAscender;
@@ -178,10 +176,6 @@ value = 1004;
 {
 name = hheaDescender;
 value = -307;
-},
-{
-name = underlinePosition;
-value = -250;
 }
 );
 descender = -167;
@@ -232,7 +226,7 @@ value = 1004;
 },
 {
 name = winDescent;
-value = 307;
+value = 306;
 },
 {
 name = hheaAscender;
@@ -19386,6 +19380,33 @@ width = 500;
 unicode = 1EBD;
 },
 {
+glyphname = schwa;
+lastChange = "2016-09-01 05:51:00 +0000";
+layers = (
+{
+components = (
+{
+name = e;
+transform = "{-1, 0, 0, -1, 500, 457}";
+}
+);
+layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+width = 500;
+},
+{
+components = (
+{
+name = e;
+transform = "{-1, 0, 0, -1, 500, 467}";
+}
+);
+layerId = UUID0;
+width = 500;
+}
+);
+unicode = 0259;
+},
+{
 glyphname = ezhreversed;
 lastChange = "2016-08-19 17:41:47 +0000";
 layers = (
@@ -28217,33 +28238,6 @@ width = 500;
 }
 );
 unicode = 00DF;
-},
-{
-glyphname = schwa;
-lastChange = "2016-09-01 05:51:00 +0000";
-layers = (
-{
-components = (
-{
-name = e;
-transform = "{-1, 0, 0, -1, 500, 457}";
-}
-);
-layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
-width = 500;
-},
-{
-components = (
-{
-name = e;
-transform = "{-1, 0, 0, -1, 500, 467}";
-}
-);
-layerId = UUID0;
-width = 500;
-}
-);
-unicode = 0259;
 },
 {
 glyphname = t;
@@ -42411,20 +42405,6 @@ width = 500;
 {
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
 width = 500;
-}
-);
-},
-{
-glyphname = .null;
-lastChange = "2016-09-01 07:06:45 +0000";
-layers = (
-{
-layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
-width = 500;
-},
-{
-layerId = UUID0;
-width = 600;
 }
 );
 },
@@ -62995,7 +62975,7 @@ unicode = FFFD;
 },
 {
 glyphname = NULL;
-lastChange = "2016-09-23 19:27:58 +0000";
+lastChange = "2016-10-03 19:58:29 +0000";
 layers = (
 {
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -63006,6 +62986,7 @@ layerId = UUID0;
 width = 0;
 }
 );
+unicode = 0000;
 },
 {
 export = 0;
@@ -63097,16 +63078,6 @@ unicode = F40A;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Inconsolata Regular";
-},
-{
-name = compatibleFullName;
-value = "Inconsolata Regular";
-}
-);
 interpolationWeight = 0;
 instanceInterpolations = {
 "051EFAE4-8BBE-4FBB-A016-4335C3E52F59" = 1;
@@ -63114,25 +63085,16 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Inconsolata Bold";
-},
-{
-name = compatibleFullName;
-value = "Inconsolata Bold";
-}
-);
 instanceInterpolations = {
 UUID0 = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 }
 );
 manufacturer = "Raph Levien, Cyreal";
-manufacturerURL = "http://cyreal.org";
+manufacturerURL = "http://www.levien.com | http://www.cyreal.org";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
