@@ -1,5 +1,5 @@
 {
-.appVersion = "926";
+.appVersion = "964";
 classes = (
 {
 automatic = 1;
@@ -63091,6 +63091,12 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = "Scale to UPM";
+value = "2048";
+}
+);
 instanceInterpolations = {
 UUID0 = 1;
 };
