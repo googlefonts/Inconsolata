@@ -4,7 +4,7 @@ Open-source Monospace Font for code listings by Raph Levien
 
 Podkova is a monoline slab serif with diagonal terminals. Wide proportions and clean features aid to legibility at small sizes. Its unusual letterforms provide enough character to be used at display sizes. Podkova is the Russian word for Horseshoe. Try it and see if the lucky charm works for you!
 
-## Changelog v.2.000
+## Changelog v.2.001
 
 August 2016 glyph set expansion was complete by Alexei Vanyashin ( [Cyreal](5) ), which included:
 
