@@ -1,5 +1,5 @@
 {
-.appVersion = "964";
+.appVersion = "965";
 classes = (
 {
 automatic = 1;
@@ -40472,7 +40472,7 @@ width = 500;
 {
 color = 4;
 glyphname = quotedbl.ss03;
-lastChange = "2016-08-26 09:36:25 +0000";
+lastChange = "2017-02-01 10:27:59 +0000";
 layers = (
 {
 background = {
@@ -40523,12 +40523,12 @@ nodes = (
 };
 components = (
 {
-name = quotesingle;
+name = quotesingle.ss03;
 transform = "{1, 0, 0, 1, -87, 0}";
 },
 {
-name = quotesingle;
-transform = "{1, 0, 0, 1, 74, 0}";
+name = quotesingle.ss03;
+transform = "{1, 0, 0, 1, 88, 0}";
 }
 );
 layerId = UUID0;
@@ -40537,11 +40537,11 @@ width = 500;
 {
 components = (
 {
-name = quotesingle;
+name = quotesingle.ss03;
 transform = "{1, 0, 0, 1, -93, 0}";
 },
 {
-name = quotesingle;
+name = quotesingle.ss03;
 transform = "{1, 0, 0, 1, 68, 0}";
 }
 );
