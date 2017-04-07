@@ -1,5 +1,8 @@
 {
 .appVersion = "965";
+DisplayStrings = (
+"2+2=5  "
+);
 classes = (
 {
 automatic = 1;
@@ -35,7 +38,7 @@ name = isFixedPitch;
 value = 1;
 }
 );
-date = "2017-02-01 10:54:31 +0000";
+date = "2017-04-07 09:47:00 +0000";
 designer = "Raph Levien, Cyreal";
 designerURL = "http://www.levien.com | http://www.cyreal.org";
 familyName = Inconsolata;
@@ -45849,7 +45852,7 @@ unicode = 00F7;
 },
 {
 glyphname = equal;
-lastChange = "2016-08-19 17:41:47 +0000";
+lastChange = "2017-04-07 09:46:13 +0000";
 layers = (
 {
 background = {
@@ -45857,19 +45860,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"45 377 LINE",
-"456 377 LINE",
-"456 438 LINE",
-"45 438 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"45 170 LINE",
-"456 170 LINE",
-"456 231 LINE",
-"45 231 LINE"
+"304 108 LINE",
+"304 283 LINE",
+"464 283 LINE",
+"464 368 LINE",
+"304 368 LINE",
+"304 529 LINE",
+"207 529 LINE",
+"207 368 LINE",
+"41 368 LINE",
+"41 283 LINE",
+"207 283 LINE",
+"207 108 LINE"
 );
 }
 );
@@ -45879,43 +45881,64 @@ paths = (
 {
 closed = 1;
 nodes = (
-"464 374 LINE",
-"464 459 LINE",
-"41 459 LINE",
-"41 374 LINE"
+"464 388 LINE",
+"464 473 LINE",
+"41 473 LINE",
+"41 388 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"464 190 LINE",
-"464 275 LINE",
-"41 275 LINE",
-"41 190 LINE"
+"464 178 LINE",
+"464 263 LINE",
+"41 263 LINE",
+"41 178 LINE"
 );
 }
 );
 width = 500;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"285 104 LINE",
+"285 291 LINE",
+"456 291 LINE",
+"456 352 LINE",
+"285 352 LINE",
+"285 523 LINE",
+"222 523 LINE",
+"222 352 LINE",
+"45 352 LINE",
+"45 291 LINE",
+"222 291 LINE",
+"222 104 LINE"
+);
+}
+);
+};
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
 paths = (
 {
 closed = 1;
 nodes = (
-"456 377 LINE",
-"456 438 LINE",
-"45 438 LINE",
-"45 377 LINE"
+"456 389 LINE",
+"456 450 LINE",
+"45 450 LINE",
+"45 389 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"456 220 LINE",
-"456 281 LINE",
-"45 281 LINE",
-"45 220 LINE"
+"456 182 LINE",
+"456 243 LINE",
+"45 243 LINE",
+"45 182 LINE"
 );
 }
 );
@@ -63135,5 +63158,5 @@ tH = "91";
 };
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
