@@ -1,8 +1,5 @@
 {
 .appVersion = "965";
-DisplayStrings = (
-"H/Hbar H/hbar"
-);
 classes = (
 {
 automatic = 1;
