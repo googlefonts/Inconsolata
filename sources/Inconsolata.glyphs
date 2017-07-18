@@ -1,8 +1,5 @@
 {
 .appVersion = "965";
-DisplayStrings = (
-"2+2=5  "
-);
 classes = (
 {
 automatic = 1;
@@ -38,7 +35,7 @@ name = isFixedPitch;
 value = 1;
 }
 );
-date = "2017-04-07 09:47:00 +0000";
+date = "2017-07-18 10:05:30 +0000";
 designer = "Raph Levien, Cyreal";
 designerURL = "http://www.levien.com | http://www.cyreal.org";
 familyName = Inconsolata;
@@ -29752,7 +29749,7 @@ unicode = 1EE7;
 },
 {
 glyphname = uhorn;
-lastChange = "2016-08-19 17:41:47 +0000";
+lastChange = "2017-07-18 10:05:11 +0000";
 layers = (
 {
 anchors = (
@@ -29771,7 +29768,7 @@ name = u.i;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, -4, 0}";
+transform = "{1, 0, 0, 1, -15, 0}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
@@ -31830,7 +31827,7 @@ unicode = 1E93;
 },
 {
 glyphname = u.i;
-lastChange = "2016-08-19 17:41:47 +0000";
+lastChange = "2017-07-18 10:05:11 +0000";
 layers = (
 {
 anchors = (
@@ -31848,7 +31845,7 @@ position = "{212, 457}";
 },
 {
 name = topright;
-position = "{392, 457}";
+position = "{381, 457}";
 }
 );
 components = (
@@ -63158,5 +63155,5 @@ tH = "91";
 };
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
