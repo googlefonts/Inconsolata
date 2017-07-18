@@ -1,5 +1,8 @@
 {
 .appVersion = "965";
+DisplayStrings = (
+"H/Hbar H/hbar"
+);
 classes = (
 {
 automatic = 1;
@@ -35,7 +38,7 @@ name = isFixedPitch;
 value = 1;
 }
 );
-date = "2017-07-18 10:05:30 +0000";
+date = "2017-07-18 10:10:05 +0000";
 designer = "Raph Levien, Cyreal";
 designerURL = "http://www.levien.com | http://www.cyreal.org";
 familyName = Inconsolata;
@@ -4912,32 +4915,46 @@ unicode = 0048;
 },
 {
 glyphname = Hbar;
-lastChange = "2016-08-19 17:41:47 +0000";
+lastChange = "2017-07-18 10:09:54 +0000";
 layers = (
 {
 components = (
 {
 name = H;
-},
-{
-name = strokelongcomb;
-transform = "{1, 0, 0, 1, -1, -3}";
 }
 );
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+paths = (
+{
+closed = 1;
+nodes = (
+"490 498 LINE",
+"490 553 LINE",
+"0 553 LINE",
+"0 498 LINE"
+);
+}
+);
 width = 500;
 },
 {
 components = (
 {
 name = H;
-},
-{
-name = strokelongcomb;
-transform = "{1, 0, 0, 1, -2, -9}";
 }
 );
 layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"498 493 LINE",
+"498 564 LINE",
+"3 564 LINE",
+"3 493 LINE"
+);
+}
+);
 width = 500;
 }
 );
@@ -58543,7 +58560,7 @@ unicode = 0335;
 },
 {
 glyphname = strokelongcomb;
-lastChange = "2016-08-19 17:41:47 +0000";
+lastChange = "2017-07-18 10:07:40 +0000";
 layers = (
 {
 anchors = (
@@ -63155,5 +63172,5 @@ tH = "91";
 };
 };
 versionMajor = 2;
-versionMinor = 3;
+versionMinor = 4;
 }
