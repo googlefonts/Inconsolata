@@ -1,5 +1,5 @@
 {
-.appVersion = "1049";
+.appVersion = "1075";
 classes = (
 {
 automatic = 1;
@@ -43,7 +43,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2017-07-18 10:35:08 +0000";
+date = "2017-12-11 17:05:59 +0000";
 designer = "Raph Levien, Cyreal";
 designerURL = "http://www.levien.com | http://www.cyreal.org";
 familyName = Inconsolata;
@@ -278,7 +278,7 @@ sub zerosuperior by zerosuperior.zero;
 name = zero;
 },
 {
-code = "sub colon hyphen parenleft by whiteFrowningFace; 
+code = "sub colon hyphen parenleft by whiteFrowningFace;
 sub colon parenleft by whiteFrowningFace; 
 sub colon hyphen parenright by whiteSmilingFace;
 sub colon parenright by whiteSmilingFace;
@@ -40789,6 +40789,19 @@ unicode = 2014;
 glyphname = endash;
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"391 281 LINE",
+"391 348 LINE",
+"111 348 LINE",
+"111 281 LINE"
+);
+}
+);
+};
 layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
 paths = (
 {
@@ -40908,10 +40921,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"71 281 LINE",
-"431 281 LINE",
-"431 348 LINE",
-"71 348 LINE"
+"391 281 LINE",
+"391 348 LINE",
+"111 348 LINE",
+"111 281 LINE"
 );
 }
 );
@@ -40921,17 +40934,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"439 275 LINE",
-"439 366 LINE",
-"64 366 LINE",
-"64 275 LINE"
+"391 275 LINE",
+"391 366 LINE",
+"111 366 LINE",
+"111 275 LINE"
 );
 }
 );
 width = 500;
 },
 {
-layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+background = {
 paths = (
 {
 closed = 1;
@@ -40940,6 +40953,19 @@ nodes = (
 "431 348 LINE",
 "71 348 LINE",
 "71 281 LINE"
+);
+}
+);
+};
+layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+paths = (
+{
+closed = 1;
+nodes = (
+"391 281 LINE",
+"391 348 LINE",
+"111 348 LINE",
+"111 281 LINE"
 );
 }
 );
@@ -74680,5 +74706,5 @@ tH = "91";
 };
 };
 versionMajor = 2;
-versionMinor = 5;
+versionMinor = 6;
 }
