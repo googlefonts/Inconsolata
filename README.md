@@ -24,6 +24,31 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 [http://scripts.sil.org/OFL][4]
 
+----
+ 
+## Inconsolata Build Instructions
+
+
+
+### Source Files
+
+Inconsolata source files are available in `.glyphs` format located in the `/sources` directory. 
+
+### Font Export options
+
+* TTF and OTF files should be exported into `/fonts/TTF` and `/fonts/OTF` folders.
+
+* `TTFs` should be generated from Glyphs App with `Autohint` option checked. At the moment there is no custom build script required to produce font files, since default TTFautohinting options suffice.
+
+![Font Export Options](documentation/font-export.png)
+
+* `OTFs` should be generated with these options:
+	* [X] Remove Overlap
+	* [X] Autohint
+	* [ ] Save as TTF
+
+----
+
 ## Copyright
 
 Copyright 2006 The Inconsolata Project Authors
