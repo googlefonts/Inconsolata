@@ -1,6 +1,6 @@
 # Inconsolata
 
-Open-source Monospace Font for code listings by Raph Levien 
+Open-source Monospace Font for code listings by Raph Levien
 
 ## Changelog v.2.001
 
@@ -25,18 +25,18 @@ This license is copied below, and is also available with a FAQ at:
 [http://scripts.sil.org/OFL][4]
 
 ----
- 
+
 ## Inconsolata Build Instructions
 
 
 
 ### Source Files
 
-Inconsolata source files are available in `.glyphs` format located in the `/sources` directory. 
+Inconsolata source files are available in `.glyphs` format located in the `/sources` directory.
 
 ### Font Export options
 
-* TTF and OTF files should be exported into `/fonts/TTF` and `/fonts/OTF` folders.
+* TTF and OTF files should be exported into `/fonts/ttf` and `/fonts/otf` folders.
 
 * `TTFs` should be generated from Glyphs App with `Autohint` option checked. At the moment there is no custom build script required to produce font files, since default TTFautohinting options suffice.
 
@@ -45,7 +45,8 @@ Inconsolata source files are available in `.glyphs` format located in the `/sour
 * `OTFs` should be generated with these options:
 	* [X] Remove Overlap
 	* [X] Autohint
-	* [ ] Save as TTF
+  * [ ] Save as TTF
+	* [X] Export destination: $REPO_PATH/fonts/otf
 
 ----
 

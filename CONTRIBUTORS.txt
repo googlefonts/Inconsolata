@@ -8,6 +8,7 @@
 #     Name <email address>
 
 Alexei Vanyashin <a@cyreal.org>
+Brenton Simpson <bsimpson@appsforartists.com>
 Kirill Tkachev <kiril_sun@list.ru>
-Nhung Nguyen <vns.wonderland@gmail.com>
 Marc Foley <m.foley.88@googlemail.com>
+Nhung Nguyen <vns.wonderland@gmail.com>
