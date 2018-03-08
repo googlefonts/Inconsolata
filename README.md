@@ -2,6 +2,12 @@
 
 Open-source Monospace Font for code listings by Raph Levien
 
+## Changelog v.2.011
+
+March 2018 glyph set expansion was complete by @appsforartists, which included:
+
+- [x] Glyph Set expanded to include ligatures for ===, !==, =>, <=, >=, ->, <-
+
 ## Changelog v.2.001
 
 August 2016 glyph set expansion was complete by Alexei Vanyashin ( [Cyreal][5] ), which included:
