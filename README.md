@@ -4,13 +4,13 @@ Open-source Monospace Font for code listings by Raph Levien
 
 ## Changelog v.2.011
 
-March 2018 glyph set expansion was complete by @appsforartists, which included:
+March 2018 glyph set expansion was completed by [**@appsforartists**](https://github.com/appsforartists/), which included:
 
 - [x] Glyph Set expanded to include ligatures for ===, !==, =>, <=, >=, ->, <-
 
 ## Changelog v.2.001
 
-August 2016 glyph set expansion was complete by Alexei Vanyashin ( [Cyreal][5] ), which included:
+August 2016 glyph set expansion was completed by Alexei Vanyashin ( [Cyreal][5] ), which included:
 
 - [x] Glyph Set expanded to GF Latin Pro
 - [x] Additional glyphs ⊕↑↗→↘↓↙←↖↔↕⇧⇨⇩⇦⬆⮕⬇⬅●○◆◇☹☺☻♠♣♥♦✓✔✕✗✘␣⎋⌂⇪⌧⌫⌦⌥⌘⏎�
@@ -33,8 +33,6 @@ This license is copied below, and is also available with a FAQ at:
 ----
 
 ## Inconsolata Build Instructions
-
-
 
 ### Source Files
 
