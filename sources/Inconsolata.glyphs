@@ -1,8 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-/exclam_equal_equal.liga/equal_equal_equal.liga/equal_greater.liga/greater_equal.liga/less_equal.liga
-);
 classes = (
 {
 automatic = 1;
@@ -75026,12 +75023,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-customParameters = (
-{
-name = "Scale to UPM";
-value = "2048";
-}
-);
 instanceInterpolations = {
 UUID0 = 1;
 };
