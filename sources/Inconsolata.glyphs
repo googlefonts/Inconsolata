@@ -1,7 +1,7 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-"<=>=-><-===!===>"
+"(value) => {} !== false === true"
 );
 classes = (
 {
@@ -47,8 +47,8 @@ value = 1;
 }
 );
 date = "2018-03-08 07:39:04 +0000";
-designer = "Raph Levien, Cyreal";
-designerURL = "http://www.levien.com | http://www.cyreal.org";
+designer = "Raph Levien, Cyreal, Brenton Simpson";
+designerURL = "http://www.levien.com | http://www.cyreal.org | http://appsforartists.com";
 familyName = Inconsolata;
 featurePrefixes = (
 {
@@ -40335,43 +40335,43 @@ paths = (
 {
 closed = 1;
 nodes = (
-"406 -159 LINE",
-"406 -71 LINE",
-"336 -71 LINE",
-"271 -71 OFFCURVE",
-"244 -42 OFFCURVE",
-"244 26 CURVE",
-"246 96 LINE",
-"246 161 OFFCURVE",
-"217 213 OFFCURVE",
-"177 239 CURVE",
-"221 267 OFFCURVE",
-"248 315 OFFCURVE",
-"248 374 CURVE",
-"246 467 LINE",
-"246 520 OFFCURVE",
-"266 547 OFFCURVE",
-"309 547 CURVE",
-"407 547 LINE",
-"407 637 LINE",
-"326 637 LINE",
-"200 637 OFFCURVE",
-"135 575 OFFCURVE",
-"135 457 CURVE",
-"137 363 LINE",
-"137 307 OFFCURVE",
-"117 283 OFFCURVE",
-"76 283 CURVE",
-"35 283 LINE",
-"35 194 LINE",
-"77 194 LINE",
-"114 194 OFFCURVE",
-"135 176 OFFCURVE",
-"135 110 CURVE",
-"132 26 LINE",
-"132 -119 OFFCURVE",
-"210 -159 OFFCURVE",
-"350 -159 CURVE"
+"406 -78 LINE",
+"406 10 LINE",
+"336 10 LINE",
+"271 10 OFFCURVE",
+"244 39 OFFCURVE",
+"244 107 CURVE",
+"246 177 LINE",
+"246 242 OFFCURVE",
+"217 294 OFFCURVE",
+"177 320 CURVE",
+"221 348 OFFCURVE",
+"248 396 OFFCURVE",
+"248 455 CURVE",
+"246 548 LINE",
+"246 601 OFFCURVE",
+"266 628 OFFCURVE",
+"309 628 CURVE",
+"407 628 LINE",
+"407 718 LINE",
+"326 718 LINE",
+"200 718 OFFCURVE",
+"135 656 OFFCURVE",
+"135 538 CURVE",
+"137 444 LINE",
+"137 388 OFFCURVE",
+"117 364 OFFCURVE",
+"76 364 CURVE",
+"35 364 LINE",
+"35 275 LINE",
+"77 275 LINE",
+"114 275 OFFCURVE",
+"135 257 OFFCURVE",
+"135 191 CURVE",
+"132 107 LINE",
+"132 -38 OFFCURVE",
+"210 -78 OFFCURVE",
+"350 -78 CURVE"
 );
 }
 );
@@ -40640,20 +40640,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"423 -97 LINE",
-"288 -34 OFFCURVE",
-"209 100 OFFCURVE",
-"209 246 CURVE SMOOTH",
-"209 396 OFFCURVE",
-"284 516 OFFCURVE",
-"417 584 CURVE",
-"391 671 LINE",
-"214 596 OFFCURVE",
-"105 428 OFFCURVE",
-"105 249 CURVE SMOOTH",
-"105 68 OFFCURVE",
-"218 -108 OFFCURVE",
-"397 -182 CURVE"
+"423 -26 LINE",
+"288 37 OFFCURVE",
+"209 171 OFFCURVE",
+"209 317 CURVE SMOOTH",
+"209 467 OFFCURVE",
+"284 587 OFFCURVE",
+"417 655 CURVE",
+"391 742 LINE",
+"214 667 OFFCURVE",
+"105 499 OFFCURVE",
+"105 320 CURVE SMOOTH",
+"105 139 OFFCURVE",
+"218 -37 OFFCURVE",
+"397 -111 CURVE"
 );
 }
 );
@@ -41984,36 +41984,36 @@ paths = (
 closed = 1;
 nodes = (
 "1455 9 LINE",
-"1455 70 LINE",
-"45 70 LINE",
+"1455 94 LINE",
+"45 94 LINE",
 "45 9 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"1455 390 LINE",
-"1455 451 LINE",
-"45 451 LINE",
-"45 390 LINE"
+"1455 388 LINE",
+"1455 473 LINE",
+"45 473 LINE",
+"45 388 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"1285 199 LINE",
-"1285 260 LINE",
-"215 260 LINE",
-"215 199 LINE"
+"1285 209 LINE",
+"1285 270 LINE",
+"215 270 LINE",
+"215 209 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"934 557 LINE",
-"880 585 LINE",
-"564 -100 LINE",
-"617 -126 LINE"
+"947 562 LINE",
+"872 601 LINE",
+"556 -84 LINE",
+"630 -121 LINE"
 );
 }
 );
@@ -68558,28 +68558,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1455 390 LINE",
-"1455 451 LINE",
-"45 451 LINE",
-"45 390 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "1455 9 LINE",
-"1455 70 LINE",
-"45 70 LINE",
+"1455 94 LINE",
+"45 94 LINE",
 "45 9 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"1285 199 LINE",
-"1285 260 LINE",
-"215 260 LINE",
-"215 199 LINE"
+"1455 388 LINE",
+"1455 473 LINE",
+"45 473 LINE",
+"45 388 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1285 209 LINE",
+"1285 270 LINE",
+"215 270 LINE",
+"215 209 LINE"
 );
 }
 );
@@ -68650,9 +68650,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"429 547 LINE",
-"851 320 LINE",
-"429 93 LINE",
+"429 527 LINE",
+"814 320 LINE",
+"429 113 LINE",
 "429 22 LINE",
 "936 292 LINE",
 "936 348 LINE",
@@ -68663,36 +68663,36 @@ nodes = (
 closed = 1;
 nodes = (
 "429 22 LINE",
-"490 55 LINE",
-"490 236 LINE",
-"429 236 LINE"
+"514 68 LINE",
+"514 263 LINE",
+"429 263 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"429 404 LINE",
-"490 404 LINE",
-"490 585 LINE",
+"429 388 LINE",
+"514 388 LINE",
+"514 572 LINE",
 "429 618 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"429 236 LINE",
-"44 236 LINE",
-"44 175 LINE",
-"429 175 LINE"
+"429 263 LINE",
+"44 263 LINE",
+"44 178 LINE",
+"429 178 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"429 465 LINE",
-"44 465 LINE",
-"44 404 LINE",
-"429 404 LINE"
+"429 473 LINE",
+"44 473 LINE",
+"44 388 LINE",
+"429 388 LINE"
 );
 }
 );
@@ -68736,22 +68736,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"663 390 LINE",
-"663 438 LINE",
-"149 661 LINE",
-"149 590 LINE",
-"586 413 LINE",
-"147 217 LINE",
-"147 141 LINE"
+"851 281 LINE",
+"851 357 LINE",
+"147 9 LINE",
+"147 -67 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"851 281 LINE",
-"851 357 LINE",
-"147 9 LINE",
-"147 -67 LINE"
+"664 386 LINE",
+"664 444 LINE",
+"148 673 LINE",
+"148 574 LINE",
+"541 414 LINE",
+"147 237 LINE",
+"147 130 LINE"
 );
 }
 );
@@ -75123,8 +75123,9 @@ name = Bold;
 weightClass = Bold;
 }
 );
-manufacturer = "Raph Levien, Cyreal";
-manufacturerURL = "http://www.levien.com | http://www.cyreal.org";unitsPerEm = 1000;
+manufacturer = "Raph Levien, Cyreal, Google";
+manufacturerURL = "http://www.levien.com | http://www.cyreal.org | http://fonts.google.com";
+unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "051EFAE4-8BBE-4FBB-A016-4335C3E52F59" = {
@@ -75152,5 +75153,5 @@ tH = "91";
 };
 };
 versionMajor = 2;
-versionMinor = 10;
+versionMinor = 11;
 }
