@@ -1,5 +1,8 @@
 {
 .appVersion = "1075";
+DisplayStrings = (
+/exclam_equal_equal.liga/equal_equal_equal.liga/equal_greater.liga/greater_equal.liga/less_equal.liga
+);
 classes = (
 {
 automatic = 1;
@@ -41971,7 +41974,45 @@ width = 1500;
 },
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"1455 9 LINE",
+"1455 70 LINE",
+"45 70 LINE",
+"45 9 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1455 390 LINE",
+"1455 451 LINE",
+"45 451 LINE",
+"45 390 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1285 199 LINE",
+"1285 260 LINE",
+"215 260 LINE",
+"215 199 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"934 557 LINE",
+"880 585 LINE",
+"564 -100 LINE",
+"617 -126 LINE"
+);
+}
+);
+width = 1500;
 }
 );
 },
@@ -68449,7 +68490,36 @@ width = 1500;
 },
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"1455 390 LINE",
+"1455 451 LINE",
+"45 451 LINE",
+"45 390 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1455 9 LINE",
+"1455 70 LINE",
+"45 70 LINE",
+"45 9 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1285 199 LINE",
+"1285 260 LINE",
+"215 260 LINE",
+"215 199 LINE"
+);
+}
+);
+width = 1500;
 }
 );
 },
@@ -68512,7 +68582,57 @@ width = 1000;
 },
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"429 547 LINE",
+"851 320 LINE",
+"429 93 LINE",
+"429 22 LINE",
+"936 292 LINE",
+"936 348 LINE",
+"429 618 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"429 22 LINE",
+"490 55 LINE",
+"490 236 LINE",
+"429 236 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"429 404 LINE",
+"490 404 LINE",
+"490 585 LINE",
+"429 618 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"429 236 LINE",
+"44 236 LINE",
+"44 175 LINE",
+"429 175 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"429 465 LINE",
+"44 465 LINE",
+"44 404 LINE",
+"429 404 LINE"
+);
+}
+);
+width = 1000;
 }
 );
 },
@@ -68548,7 +68668,30 @@ width = 1000;
 },
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"663 390 LINE",
+"663 438 LINE",
+"149 661 LINE",
+"149 590 LINE",
+"586 413 LINE",
+"147 217 LINE",
+"147 141 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"851 281 LINE",
+"851 357 LINE",
+"147 9 LINE",
+"147 -67 LINE"
+);
+}
+);
+width = 1000;
 }
 );
 },
@@ -68569,10 +68712,11 @@ width = 1000;
 components = (
 {
 name = greater_equal.liga;
+transform = "{-1, 0, 0, -1, 1000, 0}";
 }
 );
 layerId = UUID0;
-width = 600;
+width = 1000;
 }
 );
 },
