@@ -1,5 +1,8 @@
 {
 .appVersion = "1075";
+DisplayStrings = (
+"<=>=-><-===!===>"
+);
 classes = (
 {
 automatic = 1;
@@ -263,11 +266,16 @@ sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
 name = case;
 },
 {
+automatic = 1;
 code = "sub exclam equal equal by exclam_equal_equal.liga;
 sub equal equal equal by equal_equal_equal.liga;
+sub hyphen greater by hyphen_greater.liga;
 sub equal greater by equal_greater.liga;
 sub greater equal by greater_equal.liga;
+sub less hyphen by less_hyphen.liga;
 sub less equal by less_equal.liga;
+sub f i by fi;
+sub f l by fl;
 ";
 name = liga;
 },
@@ -283,7 +291,7 @@ name = zero;
 },
 {
 code = "sub colon hyphen parenleft by whiteFrowningFace;
-sub colon parenleft by whiteFrowningFace; 
+sub colon parenleft by whiteFrowningFace;
 sub colon hyphen parenright by whiteSmilingFace;
 sub colon parenright by whiteSmilingFace;
 
@@ -42014,6 +42022,65 @@ width = 1500;
 );
 },
 {
+glyphname = hyphen_greater.liga;
+layers = (
+{
+layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+paths = (
+{
+closed = 1;
+nodes = (
+"429 547 LINE",
+"851 320 LINE",
+"429 93 LINE",
+"429 22 LINE",
+"936 292 LINE",
+"936 348 LINE",
+"429 618 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"657 351 LINE",
+"44 351 LINE",
+"44 290 LINE",
+"657 290 LINE"
+);
+}
+);
+width = 1000;
+},
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"429 547 LINE",
+"851 320 LINE",
+"429 93 LINE",
+"429 22 LINE",
+"936 292 LINE",
+"936 348 LINE",
+"429 618 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"657 351 LINE",
+"44 351 LINE",
+"44 290 LINE",
+"657 290 LINE"
+);
+}
+);
+width = 1000;
+}
+);
+},
+{
 glyphname = figurespace;
 layers = (
 {
@@ -68693,6 +68760,31 @@ width = 1000;
 );
 },
 {
+glyphname = less_hyphen.liga;
+layers = (
+{
+components = (
+{
+name = hyphen_greater.liga;
+transform = "{-1, 0, 0, 1, 1000, 0}";
+}
+);
+layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
+width = 1000;
+},
+{
+components = (
+{
+name = hyphen_greater.liga;
+transform = "{-1, 0, 0, 1, 1000, 0}";
+}
+);
+layerId = UUID0;
+width = 1000;
+}
+);
+},
+{
 glyphname = less_equal.liga;
 layers = (
 {
@@ -68709,7 +68801,7 @@ width = 1000;
 components = (
 {
 name = greater_equal.liga;
-transform = "{-1, 0, 0, -1, 1000, 0}";
+transform = "{-1, 0, 0, 1, 1000, 0}";
 }
 );
 layerId = UUID0;
@@ -75032,8 +75124,7 @@ weightClass = Bold;
 }
 );
 manufacturer = "Raph Levien, Cyreal";
-manufacturerURL = "http://www.levien.com | http://www.cyreal.org";
-unitsPerEm = 1000;
+manufacturerURL = "http://www.levien.com | http://www.cyreal.org";unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "051EFAE4-8BBE-4FBB-A016-4335C3E52F59" = {
