@@ -1,6 +1,30 @@
 # Inconsolata
 
-Open-source Monospace Font for code listings by Raph Levien
+Open-source monospace font for code listings, originally by [**@raphlinus**](https://github.com/raphlinus/)
+
+### Ligatures
+
+Inconsolata includes ligatures for a few JavaScript operators:
+
+<img
+  src = "./documentation/img/ligature-sample.png"
+  alt = "Ligatures sample"
+  width = "404" height = "276"
+/>
+
+They are available in two families.
+
+- **"Inconsolata"** exposes the ligatures as `dlig`.  These are disabled by default, and probably won't show up in your editor.  You can enable them in CSS with this rule:
+   ```css
+  font-variant-ligatures: discretionary-ligatures;
+  ```
+- **"Ligconsolata"** exposes the ligatures as `liga`.  These are enabled by default.  This is the family you should use in your text editor.
+
+## Changelog v.2.013
+
+- Removed ligatures for `fi` and `fl`.
+- Operator ligatures moved to `dlig`.
+- New variant "Ligconsolata" introduced, which exposes operator ligatures as `liga`.
 
 ## Changelog v.2.011
 
@@ -37,6 +61,22 @@ This license is copied below, and is also available with a FAQ at:
 ### Source Files
 
 Inconsolata source files are available in `.glyphs` format located in the `/sources` directory.
+
+### Adding ligatures
+
+1. Follow the ["Creating the ligature"](https://glyphsapp.com/tutorials/ligatures) section of the Glyphs ligatures tutorial.
+2. Name your new glyph with the suffix `.dlig`, for instance `bar_greater.dlig`.
+3. Open the _Font Info_ panel.
+   1. Switch to the _Features_ tab.
+   2. Click _dlig_ in the sidebar.
+   3. Click the _Update_ button at the bottom of the panel.
+   4. Switch to the _Instances_ tab.
+   5. Update the _Rename Glyphs_ value for "Ligconsolata Regular" to include a new line for your new glyph, for instance:
+      ```
+      bar_greater.dlig=bar_greater.liga
+      ```
+   6. Update the _Rename Glyphs_ value for "Ligconsolata Bold".
+4. Export the font, as explained below.
 
 ### Font Export options
 
