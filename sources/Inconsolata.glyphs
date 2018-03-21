@@ -263,14 +263,8 @@ sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
 name = case;
 },
 {
-code = "sub exclam equal equal by exclam_equal_equal.liga;
-sub equal equal equal by equal_equal_equal.liga;
-sub hyphen greater by hyphen_greater.liga;
-sub equal greater by equal_greater.liga;
-sub greater equal by greater_equal.liga;
-sub less hyphen by less_hyphen.liga;
-sub less equal by less_equal.liga;
-";
+code = "";
+disabled = 1;
 name = liga;
 },
 {
@@ -284,15 +278,14 @@ sub zerosuperior by zerosuperior.zero;
 name = zero;
 },
 {
-code = "sub colon hyphen parenleft by whiteFrowningFace;
-sub colon parenleft by whiteFrowningFace;
-sub colon hyphen parenright by whiteSmilingFace;
-sub colon parenright by whiteSmilingFace;
-sub f i by fi;
-sub f l by fl;
-
- ";
-disabled = 1;
+code = "sub exclam equal equal by exclam_equal_equal.liga;
+sub equal equal equal by equal_equal_equal.liga;
+sub hyphen greater by hyphen_greater.liga;
+sub equal greater by equal_greater.liga;
+sub greater equal by greater_equal.liga;
+sub less hyphen by less_hyphen.liga;
+sub less equal by less_equal.liga;
+";
 name = dlig;
 },
 {
