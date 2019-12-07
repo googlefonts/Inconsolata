@@ -266240,6 +266240,8 @@ instanceInterpolations = {
 "0E826D2B-F2D1-4058-A5E0-936DF7ED7520" = 1;
 };
 name = "Narrow Extra Light";
+weightClass = ExtraLight;
+widthClass = "Ultra Condensed";
 },
 {
 interpolationWeight = 200;
@@ -266256,6 +266258,8 @@ instanceInterpolations = {
 "16CD5438-0A7A-495F-951A-DBB915DF0BEC" = 1;
 };
 name = "Wide Extra Light";
+weightClass = ExtraLight;
+widthClass = "Ultra Expanded";
 },
 {
 interpolationWeight = 300;
@@ -266273,6 +266277,7 @@ instanceInterpolations = {
 "7EB90DB1-9188-465D-93C7-E6C577A18003" = 1;
 };
 name = Narrow;
+widthClass = "Ultra Condensed";
 },
 {
 interpolationWeight = 400;
@@ -266288,6 +266293,7 @@ instanceInterpolations = {
 "382F13D7-0CC9-4B85-A585-CBE12F4435D4" = 1;
 };
 name = Wide;
+widthClass = "Ultra Expanded";
 },
 {
 interpolationWeight = 500;
@@ -266333,6 +266339,8 @@ instanceInterpolations = {
 "E49A0581-9397-4BB7-ADB1-45D6EDC9C316" = 1;
 };
 name = "Narrow Black";
+weightClass = Black;
+widthClass = "Ultra Condensed";
 },
 {
 interpolationWeight = 900;
@@ -266349,6 +266357,8 @@ instanceInterpolations = {
 "CC486EF6-6464-4B93-9956-4F2B932959EA" = 1;
 };
 name = "Wide Black";
+weightClass = Black;
+widthClass = "Ultra Expanded";
 }
 );
 manufacturer = "Raph Levien, Cyreal, Google";
