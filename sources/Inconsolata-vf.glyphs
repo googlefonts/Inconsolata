@@ -1,5 +1,5 @@
 {
-.appVersion = "1240";
+.appVersion = "1230";
 DisplayStrings = (
 "À/Cdotaccent/Edotaccent È/Emacrongrave/Gdotaccent/Idotaccent Ì/Ndotaccent/Odotaccentmacron Ò/Ohorngrave/Omacrongrave/Sacutedotaccent/Scarondotaccent/Sdotaccent/Sdotbelowdotaccent Ù/Uhorngrave/Wgrave/Ydotaccent/Ygrave/Zdotaccent",
 "0123456789",
@@ -13,7 +13,20 @@ DisplayStrings = (
 "/estimated",
 "/numero",
 "@",
-O
+O,
+G,
+"/zerosuperior",
+"/greater_equal.dlig",
+"/circumflexcomb_tildecomb.case",
+"/circumflexcomb_tildecomb.case",
+"/circumflexcomb_tildecomb.case",
+"/circumflexcomb_hookabovecomb.case",
+"/circumflexcomb_tildecomb.case",
+"/circumflexcomb_hookabovecomb.case",
+"/circumflexcomb_tildecomb.case",
+"/circumflexcomb_tildecomb",
+"/circumflexcomb_tildecomb.case",
+"/uniFFFD"
 );
 classes = (
 {
@@ -1181,7 +1194,7 @@ name = A;
 },
 {
 name = circumflexcomb_tildecomb.case;
-transform = "{1, 0, 0, 1, -1, 0}";
+transform = "{1, 0, 0, 1, -3, 0}";
 }
 );
 layerId = UUID0;
@@ -3671,7 +3684,7 @@ name = E;
 },
 {
 name = circumflexcomb_tildecomb.case;
-transform = "{1, 0, 0, 1, 18, 0}";
+transform = "{1, 0, 0, 1, 16, 0}";
 }
 );
 layerId = UUID0;
@@ -4536,6 +4549,13 @@ nodes = (
 }
 );
 };
+hints = (
+{
+origin = "{0, 19}";
+type = Corner;
+name = _corner.rightSpur;
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -4559,8 +4579,8 @@ nodes = (
 "201 544 OFFCURVE",
 "268 544 CURVE SMOOTH",
 "350 544 OFFCURVE",
-"369 469 OFFCURVE",
-"391 444 CURVE",
+"373 473 OFFCURVE",
+"395 448 CURVE",
 "467 517 LINE",
 "427 590 OFFCURVE",
 "355 639 OFFCURVE",
@@ -8474,6 +8494,7 @@ name = O;
 },
 {
 name = circumflexcomb_tildecomb.case;
+transform = "{1, 0, 0, 1, -2, 0}";
 }
 );
 layerId = UUID0;
@@ -35063,40 +35084,6 @@ width = 500;
 {
 layerId = UUID0;
 paths = (
-{
-closed = 1;
-nodes = (
-"355 251 OFFCURVE",
-"418 327 OFFCURVE",
-"418 457 CURVE SMOOTH",
-"418 587 OFFCURVE",
-"355 663 OFFCURVE",
-"248 663 CURVE",
-"141 663 OFFCURVE",
-"78 587 OFFCURVE",
-"78 457 CURVE SMOOTH",
-"78 327 OFFCURVE",
-"141 251 OFFCURVE",
-"248 251 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"196 323 OFFCURVE",
-"166 373 OFFCURVE",
-"166 457 CURVE SMOOTH",
-"166 541 OFFCURVE",
-"196 591 OFFCURVE",
-"248 591 CURVE",
-"300 591 OFFCURVE",
-"330 541 OFFCURVE",
-"330 457 CURVE SMOOTH",
-"330 373 OFFCURVE",
-"300 323 OFFCURVE",
-"248 323 CURVE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -66618,6 +66605,13 @@ nodes = (
 width = 500;
 },
 {
+hints = (
+{
+origin = "{2, 9}";
+type = Corner;
+name = _corner.leftSpur;
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -68063,15 +68057,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"851 281 LINE",
-"851 357 LINE",
-"147 9 LINE",
-"147 -67 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "664 386 LINE",
 "664 444 LINE",
 "148 673 LINE",
@@ -68079,6 +68064,15 @@ nodes = (
 "541 414 LINE",
 "147 237 LINE",
 "147 130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"851 281 LINE",
+"851 357 LINE",
+"147 9 LINE",
+"147 -67 LINE"
 );
 }
 );
@@ -74001,6 +73995,16 @@ layerId = "051EFAE4-8BBE-4FBB-A016-4335C3E52F59";
 width = 500;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{254, 623}";
+},
+{
+name = top;
+position = "{254, 899}";
+}
+);
 components = (
 {
 name = circumflexcomb.case;
