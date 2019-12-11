@@ -1,6 +1,6 @@
 FONTLOG for the Inconsolata font
 
-This file provides detailed information on the Inconsolata Bold 
+This file provides detailed information on the Inconsolata
 font Software.
 
 This information should be distributed along with the 
@@ -8,20 +8,23 @@ Inconsolata fonts and any derivative works.
 
 Basic Font Information
 
-Inconsolata Bold is a Unicode typeface family that supports 
+Inconsolata is a Unicode typeface family that supports
 languages that use the Latin script and its variants, and 
 could be expanded to support other scripts.
+
+It is a variable font that supports widths from 50 to 200
+and weights from 200 to 900.
 
 More specifically, this release supports the following Unicode
 ranges: Latin-1
 
-There are three source files:
-1. sources/legacy/Inconsolata-Regular.glyphs (Legacy version ported to Glyphs)
-2. sources/legacy/Inconsolata Bold-OTF.vfb (Merged contours)
-3. sources/legacy/Inconsolata Bold-TTF.vfb (TTF countours)
-4. sources/Inconsolata.glyphs (latest Glyphs file with two masters)
+There is one source file:
+1. sources/Inconsolata-vf.glyphs (latest Glyphs file with 9 masters)
 
 ChangeLog
+
+11 December 2019 (Raph Levien) Inconsolata v 3.000
+- Expand width and weight range, create variable font
 
 7 April 2017 (Alexei Vanyashin) Inconsolata v 2.002
 Restored vertical space to original amount between bars in equal signs(=). Fixes issue #8 https://github.com/cyrealtype/Inconsolata/issues/8
