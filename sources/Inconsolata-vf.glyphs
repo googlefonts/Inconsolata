@@ -73,7 +73,7 @@ Tag = wdth;
 );
 }
 );
-date = "2018-03-22 19:47:13 +0000";
+date = "2019-12-11 20:47:13 +0000";
 designer = "Raph Levien, Cyreal, Brenton Simpson";
 designerURL = "http://www.levien.com | http://www.cyreal.org | http://appsforartists.com";
 familyName = Inconsolata;
@@ -512,7 +512,7 @@ value = 859;
 },
 {
 name = typoDescender;
-value = -189;
+value = -190;
 },
 {
 name = typoLineGap;
@@ -524,7 +524,7 @@ value = 859;
 },
 {
 name = hheaDescender;
-value = -189;
+value = -190;
 },
 {
 name = underlinePosition;
@@ -268095,6 +268095,6 @@ tH = 91;
 };
 };
 };
-versionMajor = 2;
-versionMinor = 13;
+versionMajor = 3;
+versionMinor = 0;
 }
