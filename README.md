@@ -86,20 +86,6 @@ Inconsolata source files are available in `.glyphs` format located in the `/sour
    6. Update the _Rename Glyphs_ value for "Ligconsolata Bold".
 4. Export the font, as explained below.
 
-### Font Export options
-
-* TTF and OTF files should be exported into `/fonts/ttf` and `/fonts/otf` folders.
-
-* `TTFs` should be generated from Glyphs App with `Autohint` option checked. At the moment there is no custom build script required to produce font files, since default TTFautohinting options suffice.
-
-![Font Export Options](documentation/font-export.png)
-
-* `OTFs` should be generated with these options:
-	* [X] Remove Overlap
-	* [X] Autohint
-  * [ ] Save as TTF
-	* [X] Export destination: $REPO_PATH/fonts/otf
-
 ### Exporting a variable font using fontmake
 
 It's possible to export the project as a single variable font. It's just a bit tricky, because the font uses components with varying 2x2 components, triggering a [bug](https://github.com/googlefonts/fontmake/issues/595) which is present in both [fontmake] and Glyphs export. Thus, there's an inco_fix.py script in the sources directory that detects this case and decomposes just those components. Run that script before exporting. The script also decomposes corner components, which makes the resulting `glyphs` file suitable for fontmake export as well (fontmake currently has no support for corner components).
@@ -120,6 +106,8 @@ We do not check the *result* of the inco_fix script into version control, as we 
 
 The source file contains 15 instances, including all weights of the normal (100) width, and also all masters. This is a reasonable complement for working on the font. Run the gen_instances.py script to generate a total of 72 instances; all combinations of the weights from 200 to 900, and widths 50, 70, 80, 90, 110, 120, 150, and 200.
 
+There are two other instances for Ligconsolata, and fontmake will attempt to generate those, but the "Rename Glyphs" custom parameter doesn't seem to be respected by fontmake, so these won't have ligatures enabled. Use the Glyphs export instead (detailed below).
+
 Then run this command to generate OTF:
 
 ```
@@ -134,9 +122,25 @@ fontmake -g sources/Inconsolata-vf.glyphs -i -o ttf -a
 
 These are the versions in the fonts/ directory.
 
+### Font Export options (from Glyphs)
+
+This is the preferred way to generate the Ligconsolata instances, but
+
+* TTF and OTF files should be exported into `/fonts/ttf` and `/fonts/otf` folders.
+
+* `TTFs` should be generated from Glyphs App with `Autohint` option checked. At the moment there is no custom build script required to produce font files, since default TTFautohinting options suffice.
+
+![Font Export Options](documentation/font-export.png)
+
+* `OTFs` should be generated with these options:
+  * [X] Remove Overlap
+  * [X] Autohint
+  * [ ] Save as TTF
+  * [X] Export destination: $REPO_PATH/fonts/otf
+
 ### Future work
 
-As follow-on work, we hope to have scripts to export "Ligconsolata" from the 3.000 branch. In addition, we want to export a subset not including Vietnamese script coverage, to avoid over-large line spacing on older applications (such as terminals and text editors) that don't understand the "use typo metrics" flag (see https://github.com/googlefonts/Inconsolata/issues/35).
+In addition, we want to export a subset not including Vietnamese script coverage, to avoid over-large line spacing on older applications (such as terminals and text editors) that don't understand the "use typo metrics" flag (see https://github.com/googlefonts/Inconsolata/issues/35).
 
 ----
 
