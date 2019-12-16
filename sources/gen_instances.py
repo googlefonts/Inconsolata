@@ -3,15 +3,15 @@ __doc__="""
 Generates additional interpolation instances for Inconsolata.
 """
 widths = [
-    ("Ultra Condensed", 50),
-    ("Extra Condensed", 70),
+    ("UltraCondensed", 50),
+    ("ExtraCondensed", 70),
     ("Condensed", 80),
-    ("Semi Condensed", 90),
+    ("SemiCondensed", 90),
     ("Medium", 100),
-    ("Semi Expanded", 110),
+    ("SemiExpanded", 110),
     ("Expanded", 120),
-    ("Extra Expanded", 150),
-    ("Ultra Expanded", 200),
+    ("ExtraExpanded", 150),
+    ("UltraExpanded", 200),
 ]
 
 weights = [
