@@ -35,9 +35,6 @@ for wdth in widths:
             if wght[0] != "Regular":
                 name += " " + wght[0]
             instance.weightValue = wght[1]
-            if wght[1] == 200:
-                # Work around GDI fake bold issue
-                instance.customParameters['weightClass'] = 275
             instance.widthValue = wdth[1]
             instance.name = name
             Glyphs.font.instances.append(instance)

@@ -267851,12 +267851,6 @@ unicode = F40A;
 );
 instances = (
 {
-customParameters = (
-{
-name = weightClass;
-value = 275;
-}
-);
 interpolationWeight = 200;
 interpolationWidth = 50;
 instanceInterpolations = {
@@ -267867,12 +267861,6 @@ weightClass = ExtraLight;
 widthClass = "Ultra Condensed";
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 275;
-}
-);
 interpolationWeight = 200;
 instanceInterpolations = {
 "4196E4A4-01D0-4BE0-B812-9D3AF152A0E4" = 1;
@@ -267881,12 +267869,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 275;
-}
-);
 interpolationWeight = 200;
 interpolationWidth = 200;
 instanceInterpolations = {
