@@ -3,15 +3,15 @@ __doc__="""
 Generates additional interpolation instances for Inconsolata.
 """
 widths = [
-    ("UltraCondensed", 50),
-    ("ExtraCondensed", 70),
+    ("Ultra Condensed", 50),
+    ("Extra Condensed", 70),
     ("Condensed", 80),
-    ("SemiCondensed", 90),
+    ("Semi Condensed", 90),
     ("Medium", 100),
-    ("SemiExpanded", 110),
+    ("Semi Expanded", 110),
     ("Expanded", 120),
-    ("ExtraExpanded", 150),
-    ("UltraExpanded", 200),
+    ("Extra Expanded", 150),
+    ("Ultra Expanded", 200),
 ]
 
 weights = [
@@ -31,7 +31,7 @@ for wdth in widths:
             instance = GSInstance()
             instance.width = wdth[0]
             instance.weight = wght[0]
-            name = wdth[0]
+            name = wdth[0].replace(" ", "")
             if wght[0] != "Regular":
                 name += " " + wght[0]
             instance.weightValue = wght[1]
