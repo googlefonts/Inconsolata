@@ -17,9 +17,8 @@ rm -rf master_ufo/ instance_ufo/
 fontmake -g prod.glyphs -i -o otf --output-dir ../fonts/otf/
 
 
-# echo "Generating VFs"
+echo "Generating VFs"
 fontmake -g prod.glyphs -o variable --output-path ../fonts/variable/Inconsolata[wdth,wght].ttf
-# 
 rm -rf master_ufo/ instance_ufo/
 
 
@@ -38,14 +37,13 @@ vfs=$(ls ../fonts/variable/*.ttf)
 gftools fix-dsig -f $vfs;
  
 echo "Fixing VF Meta"
-for vf in $vfs
+for ttf in $vfs
 do
-	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
-	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/variable/$rtrip.ttx;
-	rm $vf;
-	ttx $new_file
-	rm $new_file
+	gftools fix-nonhinting $ttf $ttf.fix;
+	[ -f $ttf.fix ] && mv $ttf.fix $ttf
+	# Issue with DirectWrite. Causes
+	# https://github.com/google/fonts/issues/2085
+	gftools fix-unwanted-tables --tables MVAR $ttf
 done
 
-rm prod.glyphs
+rm ../fonts/variable/*gasp*.ttf prod.glyphs
