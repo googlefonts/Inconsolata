@@ -1,8 +1,5 @@
 {
 .appVersion = "1271";
-DisplayStrings = (
-"/Ccedillaacute"
-);
 classes = (
 {
 automatic = 1;
@@ -56,6 +53,21 @@ Tag = wght;
 Name = Width;
 Tag = wdth;
 }
+);
+},
+{
+name = panose;
+value = (
+0,
+0,
+5,
+9,
+0,
+0,
+0,
+0,
+0,
+0
 );
 }
 );
