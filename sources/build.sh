@@ -6,21 +6,26 @@ then
 	printf "%s" \
 	      "No production ready source! \
 Please run gen_instances.py and inco_fix.py inside Glyphsapp \
-with Inconsolata-vf.glyphs and save this file as prod.py"
+with Inconsolata-vf.glyphs and save this file as prod.py. \
+DO NOT OVERWRITE Inconsolats-vf.glyphs!"
 	exit 1
 fi
 
+echo "Converting .glyphs to .ufo"
+fontmake -g prod.glyphs -o ufo
+
 echo "Generating Static fonts"
 mkdir -p ../fonts ../fonts/ttf ../fonts/otf ../fonts/variable
-fontmake -g prod.glyphs -i -o ttf --output-dir ../fonts/ttf/
-rm -rf master_ufo/ instance_ufo/
-fontmake -g prod.glyphs -i -o otf --output-dir ../fonts/otf/
+fontmake -m master_ufo/Inconsolata.designspace -i -o ttf --output-dir ../fonts/ttf/
+fontmake -m master_ufo/Inconsolata.designspace -i -o otf --output-dir ../fonts/otf/
 
 
 echo "Generating VFs"
-fontmake -g prod.glyphs -o variable --output-path ../fonts/variable/Inconsolata[wdth,wght].ttf
-rm -rf master_ufo/ instance_ufo/
+fontmake -m master_ufo/Inconsolata.designspace -o variable --output-path ../fonts/variable/Inconsolata[wdth,wght].ttf
+python gen_stat.py
+statmake --stylespace ./stat.stylespace --designspace master_ufo/Inconsolata.designspace ../fonts/variable/Inconsolata\[wdth\,wght\].ttf
 
+rm -rf master_ufo/ instance_ufo/
 
 echo "Post processing"
 ttfs=$(ls ../fonts/ttf/*.ttf)
@@ -46,4 +51,4 @@ do
 	gftools fix-unwanted-tables --tables MVAR $ttf
 done
 
-rm ../fonts/variable/*gasp*.ttf prod.glyphs
+rm ../fonts/ttf/*gasp*.ttf ../fonts/variable/*gasp*.ttf prod.glyphs
