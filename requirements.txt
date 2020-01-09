@@ -1,2 +1,3 @@
 fontmake==2.0.7
-git+https://www.github.com/googlefonts/tools
+gftools
+statmake
