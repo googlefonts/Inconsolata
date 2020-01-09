@@ -22,6 +22,32 @@ They are available in two families.
 
 Note: the Ligconsolata variant has not yet been upgraded to version 3.000, as we're prioritizing the non-ligature variants.
 
+## Building the family
+
+Family is built using Glyphs, fontmake and gftools post processing script. Tools are all python based.
+
+To install all the Python tools into a virtualenv, do the following:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+To build the fonts we must load sources/Inconsolata-vf.glyphs in Glyphs and do the following:
+- Run the gen_instances.py script
+- Run the inco_fix.py script
+- Save the file back in the sources directory with the filename "prod.glyphs"
+
+We can now run the build script in the terminal:
+
+```
+cd sources # script needs to be run from sources dir
+sh build.sh
+```
+
+Fonts will take approximately 25 minutes to buikd.
+
 ## Changelog v.3.000
 
 Upgrade to 2-axis variable font family, with widths from 50 to 200, and weights from 200 to 900.
