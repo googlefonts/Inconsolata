@@ -37,18 +37,21 @@ do
 done
 
 
+
 echo "Post processing VFs"
-vfs=$(ls ../fonts/variable/*.ttf)
-gftools fix-dsig -f $vfs;
+vf=../fonts/variable/Inconsolata[wdth,wght].ttf
+gftools fix-dsig -f $vf;
  
 echo "Fixing VF Meta"
-for ttf in $vfs
-do
-	gftools fix-nonhinting $ttf $ttf.fix;
-	[ -f $ttf.fix ] && mv $ttf.fix $ttf
-	# Issue with DirectWrite. Causes
-	# https://github.com/google/fonts/issues/2085
-	gftools fix-unwanted-tables --tables MVAR $ttf
-done
+gftools fix-nonhinting $vf $vf.fix;
+[ -f $vf.fix ] && mv $vf.fix $vf
+# Issue with DirectWrite. Causes
+# https://github.com/google/fonts/issues/2085
+gftools fix-unwanted-tables --tables MVAR $vf
+
+echo "Transferring and compiling VTT hints"
+python -m vttLib mergefile vtt_hinting.ttx $vf
+python -m vttLib compile $vf $vf.fix
+[ -f $vf.fix ] && mv $vf.fix $vf
 
 rm ../fonts/ttf/*gasp*.ttf ../fonts/variable/*gasp*.ttf prod.glyphs
