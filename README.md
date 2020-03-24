@@ -46,7 +46,7 @@ cd sources # script needs to be run from sources dir
 sh build.sh
 ```
 
-Fonts will take approximately 25 minutes to buikd.
+Fonts will take approximately 25 minutes to build.
 
 ## Changelog v.3.000
 
