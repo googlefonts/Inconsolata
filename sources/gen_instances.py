@@ -32,8 +32,6 @@ for wdth in widths:
             instance.width = wdth[0]
             instance.weight = wght[0]
             name = wdth[0].replace(" ", "")
-            if wght[0] != "Regular":
-                name += " " + wght[0]
             instance.weightValue = wght[1]
             instance.widthValue = wdth[1]
             instance.name = name
