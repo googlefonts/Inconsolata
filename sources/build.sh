@@ -7,7 +7,7 @@ then
 	      "No production ready source! \
 Please run gen_instances.py and inco_fix.py inside Glyphsapp \
 with Inconsolata-vf.glyphs and save this file as prod.py. \
-DO NOT OVERWRITE Inconsolats-vf.glyphs!"
+DO NOT OVERWRITE Inconsolata-vf.glyphs!"
 	exit 1
 fi
 
@@ -32,26 +32,24 @@ ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	gftools fix-nonhinting $ttf $ttf.fix;
+	ttfautohint $ttf $ttf.fix
+	[ -f $ttf.fix ] && mv $ttf.fix $ttf
+	gftools fix-hinting $ttf $ttf.fix;
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 done
-
-
 
 echo "Post processing VFs"
 vf=../fonts/variable/Inconsolata[wdth,wght].ttf
 gftools fix-dsig -f $vf;
- 
-echo "Fixing VF Meta"
-gftools fix-nonhinting $vf $vf.fix;
-[ -f $vf.fix ] && mv $vf.fix $vf
 # Issue with DirectWrite. Causes
 # https://github.com/google/fonts/issues/2085
 gftools fix-unwanted-tables --tables MVAR $vf
 
 echo "Transferring and compiling VTT hints"
 python -m vttLib mergefile vtt_hinting.ttx $vf
-python -m vttLib compile $vf $vf.fix
+python -m vttLib compile $vf $vf.fix --ship
+[ -f $vf.fix ] && mv $vf.fix $vf
+gftools fix-hinting $vf
 [ -f $vf.fix ] && mv $vf.fix $vf
 
 rm ../fonts/ttf/*gasp*.ttf ../fonts/variable/*gasp*.ttf prod.glyphs
