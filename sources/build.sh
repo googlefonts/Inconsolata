@@ -33,7 +33,7 @@ do
 	gftools fix-dsig -f $ttf;
 	ttfautohint $ttf $ttf.fix
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
-	gftools fix-hinting $ttf $ttf.fix;
+	gftools fix-hinting $ttf
 	[ -f $ttf.fix ] && mv $ttf.fix $ttf
 done
 
@@ -50,5 +50,8 @@ python -m vttLib compile $vf $vf.fix --ship
 [ -f $vf.fix ] && mv $vf.fix $vf
 gftools fix-hinting $vf
 [ -f $vf.fix ] && mv $vf.fix $vf
+gftools fix-gasp $vf --autofix
+[ -f $vf.fix ] && mv $vf.fix $vf
 
-rm ../fonts/ttf/*gasp*.ttf ../fonts/variable/*gasp*.ttf prod.glyphs
+rm prod.glyphs
+echo "Done"
