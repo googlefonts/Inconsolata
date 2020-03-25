@@ -22,7 +22,6 @@ fontmake -m master_ufo/Inconsolata.designspace -i -o otf --output-dir ../fonts/o
 
 echo "Generating VFs"
 fontmake -m master_ufo/Inconsolata.designspace -o variable --output-path ../fonts/variable/Inconsolata[wdth,wght].ttf
-python gen_stat.py
 statmake --stylespace ./stat.stylespace --designspace master_ufo/Inconsolata.designspace ../fonts/variable/Inconsolata\[wdth\,wght\].ttf
 
 rm -rf master_ufo/ instance_ufo/
