@@ -35,6 +35,7 @@ pip install -r requirements.txt
 ```
 
 To build the fonts we must load sources/Inconsolata-vf.glyphs in Glyphs and do the following:
+- Run the decompose-transformed-components.py script
 - Run the gen_instances.py script
 - Run the inco_fix.py script
 - Save the file back in the sources directory with the filename "prod.glyphs"
