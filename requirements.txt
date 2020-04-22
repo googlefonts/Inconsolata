@@ -1,0 +1,4 @@
+fontmake==2.0.7
+gftools
+statmake
+git+https://github.com/daltonmaag/vttLib.git
