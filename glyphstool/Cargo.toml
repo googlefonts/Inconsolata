@@ -1,0 +1,17 @@
+[package]
+name = "glyphstool"
+version = "0.1.0"
+license = "MIT/Apache-2.0"
+authors = ["Raph Levien <raph.levien@gmail.com>"]
+readme = "README.md"
+edition = "2018"
+
+[[bin]]
+name = "glyphstool"
+
+[dependencies]
+kurbo = "0.5.1"
+plist_derive = { path = "plist_derive" }
+
+# This dep is used for the binary, not the lib, but oh well.
+structopt = "0.3.2"
