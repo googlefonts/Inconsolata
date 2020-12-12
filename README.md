@@ -169,6 +169,10 @@ This is the preferred way to generate the Ligconsolata instances, but
 
 In addition, we want to export a subset not including Vietnamese script coverage, to avoid over-large line spacing on older applications (such as terminals and text editors) that don't understand the "use typo metrics" flag (see https://github.com/googlefonts/Inconsolata/issues/35).
 
+## Glyphstool
+
+The repository also contains some Rust code to manipulate Glyphs format masters, in the `glyphstool` subdirectory. This was used to apply global transforms (mostly as a starting point for the width work). Perhaps the most valuable aspect is that it contains a fairly complete set of line and box drawing primitives, inspired by [Source Code Pro] but with actually variable weight and width. It's not particularly polished or well documented, but is provided for completeness, and it's possible that it could be adapted to future tools that work with font data in the Glyphs format. The code is licensed under Apache 2.0 or MIT, in keeping with the Rust tradition.
+
 ----
 
 ## Copyright
