@@ -4,7 +4,7 @@ axisOrder:
   - wdth
   - wght
 familyName: Inconsolata
-buildStatic: false
+buildStatic: true
 flattenComponents: false
 decomposeTransformedComponents: true
 vttSources:
