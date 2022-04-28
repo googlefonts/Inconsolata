@@ -1,0 +1,12 @@
+sources:
+  - Inconsolata.glyphs
+axisOrder:
+  - wdth
+  - wght
+familyName: Inconsolata
+buildStatic: true
+flattenComponents: false
+decomposeTransformedComponents: true
+vttSources:
+  Inconsolata[wdth,wght].ttf: vtt_hinting.ttx
+includeSourceFixes: true
