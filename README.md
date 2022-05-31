@@ -44,7 +44,7 @@ We can now run the build script in the terminal:
 
 ```
 cd sources # script needs to be run from sources dir
-sh build.sh
+gftools builder config.yaml
 ```
 
 Fonts will take approximately 25 minutes to build.
