@@ -33,7 +33,7 @@ glyphtools==0.8.0
 hyperglot==0.3.8
 idna==3.3
 Jinja2==3.1.0
-lxml==4.8.0
+lxml==4.9.1
 MarkupSafe==2.1.1
 numpy==1.22.3
 openstep-plist==0.3.0
