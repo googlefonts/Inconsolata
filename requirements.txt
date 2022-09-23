@@ -39,7 +39,7 @@ numpy==1.22.3
 openstep-plist==0.3.0
 opentype-sanitizer==8.2.1
 Pillow==9.0.1
-protobuf==3.19.4
+protobuf==3.19.5
 psutil==5.9.0
 pybrowserstack-screenshots==0.1
 pyclipper==1.3.0.post2
