@@ -38,7 +38,7 @@ MarkupSafe==2.1.1
 numpy==1.22.3
 openstep-plist==0.3.0
 opentype-sanitizer==8.2.1
-Pillow==9.0.1
+Pillow==9.3.0
 protobuf==3.19.4
 psutil==5.9.0
 pybrowserstack-screenshots==0.1
