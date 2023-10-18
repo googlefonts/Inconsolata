@@ -64,6 +64,6 @@ ufo2ft==2.26.0
 ufoLib2==0.13.1
 unicodedata2==14.0.0
 Unidecode==1.3.4
-urllib3==1.26.9
+urllib3==1.26.18
 vttLib==0.11.0
 wrapt==1.14.0
