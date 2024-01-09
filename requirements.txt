@@ -23,7 +23,7 @@ fontmake==3.2.0
 fontMath==0.9.1
 fontParts==0.10.4
 fontPens==0.2.4
-fonttools==4.31.2
+fonttools==4.43.0
 fs==2.4.15
 gflanguages==0.4.0
 gftools==0.9.4
