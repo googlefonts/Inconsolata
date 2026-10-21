@@ -5,7 +5,8 @@ axisOrder:
   - wght
 familyName: Inconsolata
 buildStatic: true
-flattenComponents: false
+flattenComponents: true
+extraVariableFontmakeArgs: --auto-use-my-metrics
 decomposeTransformedComponents: true
 vttSources:
   Inconsolata[wdth,wght].ttf: vtt_hinting.ttx
