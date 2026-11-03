@@ -5,7 +5,7 @@ axisregistry==0.2.0
 babelfont==2.0.2
 beziers==0.4.0
 booleanOperations==0.9.0
-Brotli==1.0.9
+Brotli==1.2.1
 browserstack-local==1.2.2
 cattrs==1.10.0
 certifi==2021.10.8
